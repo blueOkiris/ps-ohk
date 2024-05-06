@@ -1,0 +1,21 @@
+# Temp files
+~*
+\#*
+
+# PCB Exports
+output/
+*.zip
+*.gbl
+*.gbs
+*.gbp
+*.gbo
+*.gm1
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.gbrjob
+*.drl
+*.drl
+*.lck
+

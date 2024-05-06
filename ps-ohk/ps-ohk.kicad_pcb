@@ -1,0 +1,9528 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "PS-OHK")
+		(date "2024-05-06")
+		(rev "1")
+		(company "Polymath-Studio")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "/KEY_B")
+	(net 2 "GND")
+	(net 3 "/KEY_C")
+	(net 4 "/KEY_D")
+	(net 5 "/KEY_E")
+	(net 6 "/KEY_F")
+	(net 7 "/KEY_G")
+	(net 8 "/KEY_H")
+	(net 9 "/KEY_I")
+	(net 10 "/KEY_J")
+	(net 11 "/KEY_K")
+	(net 12 "/KEY_L")
+	(net 13 "/KEY_M")
+	(net 14 "/KEY_N")
+	(net 15 "/KEY_O")
+	(net 16 "/KEY_P")
+	(net 17 "/KEY_Q")
+	(net 18 "/KEY_R")
+	(net 19 "/KEY_S")
+	(net 20 "/KEY_T")
+	(net 21 "/KEY_U")
+	(net 22 "/KEY_V")
+	(net 23 "/KEY_W")
+	(net 24 "/KEY_X")
+	(net 25 "/KEY_Y")
+	(net 26 "/KEY_Z")
+	(net 27 "/KEY_A")
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "075c7eba-1f46-4e46-a866-4fccbd05f0d2")
+		(at 115.96 127.42)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A26"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "1ba9e0ba-9fff-4020-996a-75742388b650")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "333aa0d1-9002-40cb-a616-19ecc10af2e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88298f4e-46f0-4463-a635-5d2311151fc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e7dc10b-fc39-4831-ab11-1206a711d390")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eef64b9-d41e-49bb-9187-35cc4839a977")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fd75a24-1bee-43d4-b3b9-214af4e24402")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d3b470-35be-4ae7-b7fd-b9e19c3dc4c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "634f3439-4853-452b-847c-bbc083268700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a33b7f78-4d18-491a-bada-7a4ef1811255")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c320a66-1154-4d8f-9ce7-4f79132f56d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/636ff299-36bb-40d4-8701-5914082f757c")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5d39808-8d47-4185-a34c-1eea33c58a1f")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7feb25e-6f81-4ee9-bae2-06e569cc0e1e")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52924290-7494-42a0-8e6b-aa3031c7329c")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bdf2d203-40e0-4e8a-a992-64e3a82c3d0e")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb090bc2-c1dd-4ae9-bef2-500b43c0fc25")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57543957-cb18-41b9-926b-a46eae5aeaf5")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "158aed69-fad7-48cb-a7d2-60fd0a791068")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "126bd612-8a6c-4e9e-90fb-8c0c231a12b3")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a683e57-093c-4ebe-b0b3-77e0a44f691c")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0d93074-1b38-41b7-87e3-3fdbedbc1dd9")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aacd1467-e7a1-4687-8530-5b48de1b6e8f")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bf5a15fe-9301-403e-8822-ac7ed0de6bba")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "713164c3-b9bb-4b93-a794-b40f53825375")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f24737db-42c8-4789-bea9-3790b3e39461")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "41c37257-8d4d-45bd-994c-10daec3a962d")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ad1eb05-01c6-4997-aecf-b9e2b7c8a25c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "56fe1469-3e85-4501-9659-face9a726e9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c9dc704f-414c-40b7-a1c9-eeb1f621f1a3")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cdaaee0a-6cee-4153-8fe5-de23e08a4988")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fa423de9-9a5b-4225-ba2e-63ec299bdad0")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 27 "/KEY_A")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "251126c3-3491-4ca4-9145-7fdd1aab2edb")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "3a50b2fa-2ce2-48bb-b571-042b9b6294f9")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "0bde1dd0-1a06-4c62-897c-0f87c9719fdb")
+		(at 115.96 52.62)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A22"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "43193855-284e-4821-899f-0f3bc411c524")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7bd5990f-8801-474e-8376-8e243e304132")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8e562e0-5c13-4d03-8f09-17c0d24cf464")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f82993ca-443a-449b-82c9-a19e3309097c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1686da4-f87e-4a19-b7b8-52c9d83f1fb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88ad88f3-49df-4556-ba8c-cc12507d8c5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed99fbf6-4d09-4422-94c0-003bf15599c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbb4a6d8-db7c-41b3-88b1-ab69f4a76ed5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "feef6965-d4fe-4867-9478-c9e4da2ba767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbca510d-ed78-4fa8-83cf-04e2d45713e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/3198b9da-d3c0-471b-9e8e-c8c5083c7d5a")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "86a1c04b-7a8c-473f-bf5b-721b13b8c6ea")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a92fcdd1-7772-4447-be13-18ac81f34a94")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67d3d911-ef85-479f-83bb-ad56d725f769")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ead1dff8-5a7b-48fd-a186-08520ad65d26")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d74cb097-deb5-4f09-98c8-969ad0c82f90")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c80f3eba-ca86-4610-be57-99bee07a44e5")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "581e90fa-75e2-4595-a129-063f224c00b4")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37383c23-4353-4e3a-986e-07fa794b7257")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6cae4dd8-8ec1-4959-a875-13cf15848ef2")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f5d1a1c9-f1f9-4d59-aa00-16719d2660d4")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "45367679-6dec-491d-916c-0db53b15ca29")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fc602f25-ccb6-44eb-9ff9-aabb47a0c9a7")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "77eb07dc-717c-4aff-b1a8-40b0cdabe18c")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "89e2884f-73eb-487f-abbd-92cfd25c1b74")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9db518ed-476a-462f-b9c5-90d9cfba6002")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d06ad33e-d613-4728-be66-ee7c0613995b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "cc5ce9fe-b819-48f6-8b97-9e96df6b78a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "65ba3df1-f515-48be-9466-0079f0cba4cd")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5f88fd91-fe5c-4f45-90c2-006be9877dc1")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "033247de-d560-41be-b7e1-94e36c983a8b")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 23 "/KEY_W")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "980e9f86-0be2-480a-a2e6-b98fba426cd6")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "9995c884-d2ad-4c53-bb1d-cdcb546aed11")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "0ebfa4ae-d21c-4509-a770-2d8516762c78")
+		(at 59.86 108.72)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A4"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "48ce3e65-43e6-4e5a-82e8-8282624f8375")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "168ed60a-4c68-478b-ad4c-39d8690b9b8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "298ba622-30ae-477c-9cfd-b9e199fd6f07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0940aa9a-da71-4704-821d-6336d0940a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6e5a46a-5f32-4967-845f-4b4221c767cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e3d14ec-a422-486a-96b4-0e6bf7898953")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1843478e-219f-458e-9db6-7a26eaba5b1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcbbe734-15b3-4c80-8d3e-7ebe16cb709c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9f844d2-6ecd-4a7a-8bb3-079d62a70cba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84b841fd-089f-4fad-a38a-ffd7189d2df0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8b9511f8-49e2-45ef-bf91-70b6954a1635")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69e0e621-2a5c-4b72-a475-d9b2d62962ba")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6bade482-7182-4348-84b6-35d575df3fff")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1c26c9f7-bc2b-4c65-a32f-873c8b88f65f")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "70cce238-507b-4ff0-b113-12a967e434c1")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f4fb3a0-417b-4125-90cd-417b66668d9c")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d7145508-98bb-4b80-84aa-5b8c3093df1b")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "792a5d72-4a89-4bdf-adbf-8bd7d20efffc")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b20e6ab-6b67-4f1f-8307-de14cf304d3e")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "41565a71-4f22-41a2-ab3e-45d30340d61b")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "05a7e7e5-01aa-4fe5-8560-b376809c6763")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df635018-935b-416e-9422-c9d997413189")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9df0a6c2-0d1b-445b-9183-b98e113d4898")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d696297a-2de5-48d4-b372-6e2d6bdb6686")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "04159879-e182-48e0-93ca-2469996416dc")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "89b76d86-aa09-47f7-a12a-c7536db3a09a")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b14ceda-2733-4959-a405-71f81ddfe0b0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "8c13c49d-f385-43d0-8a0e-30cf036e5013")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "956d12cd-fa61-4d7c-bc87-35daa9bb5b61")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8ce72169-787a-4aff-b97d-f04cf43f9e9d")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8e754252-7095-4d3c-abc8-a7f015f887c2")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "/KEY_E")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e86ce4af-3a77-45fa-9f32-4e7fa7503e38")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "cbf71520-7b15-4fab-a30a-31b0e600de4e")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "181653a5-85a9-4b1b-ad1a-c9286e3e87b2")
+		(at 59.86 127.42)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A5"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "5d6a2860-1795-4b3a-8801-50997daba773")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2e6ac756-c8fb-4a82-9b4e-642960223eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99827aa5-5a09-44bb-a4cd-21e5f138cd1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1eae24c7-dd7e-49ce-8e80-419be6a2f6c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81910ea-75dc-4ddb-90cf-4ba12df0586c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c5a00a0-0351-49aa-a9c4-95d194424bfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5deed228-835b-4f17-a35c-fc3f1bbbda84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c196e7dd-40fa-4d7a-8a0f-9b78dc9eb6ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "924a20de-bfdb-4a10-966b-cd89bec9b09d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6c290ac-3996-4db6-83df-7c893bbd8af8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/40d1fdf0-8f89-4720-817d-18329e041cd2")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "34ed3108-0789-448c-b275-ac2d44090b02")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d4a00848-50ae-4459-8ed6-d58fab12f5ac")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "966052bc-ca40-4295-957c-e7db5f4ab457")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66512e60-0c09-4209-961b-55bd9f5f0d4c")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7b8453d0-f1d4-4605-b103-0231b60468d0")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "46f78a48-dbd6-4c25-b379-26c82a4fd826")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b84344c5-4b89-42f5-8dba-28d5a6adb6d1")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5891fd10-3d92-4177-8259-396364a7bff1")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d65e62e-db6c-4a48-9568-6da92d2f8a2d")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8717e1b0-fb6f-43f8-825e-ff6c7ff71f4a")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9811361-71ac-42c8-993e-65da968356c8")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d3ba98fe-6489-4288-9bd5-9d3fc1cb3c89")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9c749240-8926-4f29-9192-1611888bc9ba")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df32c605-7824-4464-b961-dedb2a60369f")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "49e33a5a-a455-44e2-8f71-f6379df4f301")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f0080157-3f4a-4f5f-bf40-b19a9541b699")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "49d2acdc-2300-4c7f-80cd-cb669d376922")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6d655a56-273b-40fc-a2f6-e478d0a8e16a")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b9b94efc-0786-4b26-bd62-68215a22ae5c")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "03da8d64-ebe5-410a-af04-c824f41a85dc")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "/KEY_F")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c9f62ac8-8ce5-46fe-88ad-12a009bc1a87")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "55de409b-6ab1-4bb0-8d42-71fbbc961112")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "2533a4f3-5771-44a9-9609-7d1d254d297c")
+		(at 78.56 146.12)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A13"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "1160c62a-95ca-458b-9024-82c46b971c55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e29e01c6-5fda-4c70-8153-760eca1b4266")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4df02ec-5b6d-41c1-825f-431a3999fd89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bf65efa-4389-48af-ad12-11d97dab87ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09bd5997-8bda-4eed-b2bb-d9142b19bc7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3609c6e4-899f-4aac-84dd-14c83fc7c2a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13abcc81-6039-454a-87a1-b9d1bc8932bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc45744a-bb1e-4c52-8df2-84567b99d9c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99d434f6-92f1-42ab-95c9-b520ffd78e25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e270f656-57e6-4499-ad11-b537e2ec3b90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2c95aec9-3f10-46e6-938a-5e0ebb12edc4")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bed1953e-49f4-49f8-a8c6-4e336e75c10f")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "caef28b2-3681-4021-a72c-f8753de0beeb")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4b7606c1-1772-4d6b-a930-0f5918732442")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01e8cc2e-6289-4b74-9d45-4aa7c609b112")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf0ee896-cf1f-49a8-ab94-3573e6cbd389")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fc3daa01-3c32-4489-bca0-d81444981fb4")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e216e8e-3526-48d1-89b0-36638ebff741")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4281c679-4ab0-4eef-a652-ee6c0ed0ff32")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "57ab9ad9-fb28-4166-b0c0-525fdc98cc91")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7f0d6bbd-1a5d-4c50-af1e-5dcebfe37f82")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7fb3eb95-fb4e-4922-97ad-47087c416f33")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67476a9c-ee21-4003-ada9-4539b290beea")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f615d4de-501c-4145-8c5a-c237f8a008ed")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e6d6de5-adf9-4f97-9838-7f05ca1c6a02")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "af2b3dc3-e471-4796-bacd-99d63985e802")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "24946dac-a1d0-45d0-8d00-5b3bd8dbb282")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "81ffe987-3648-4126-b72f-f1f6e3940e3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "06ffb62f-e7cc-4bc8-9cb9-eb534dd1555d")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "65c36801-ab0c-4046-affb-8fafa8d31512")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e28d98c9-d535-41ae-9b08-3c4a08674b78")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 14 "/KEY_N")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3b043a8e-5972-4d7a-bdc1-43415478750e")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "58990a4e-a4ea-4a7b-98fc-5ecb48315518")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "26aa07f2-2a4b-4f09-92f2-03287cbe822f")
+		(at 97.26 71.32)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A16"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "f80aadb4-ff53-4b26-8a6d-7de4a9d76564")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "56af74b1-6b7a-43a2-85ee-610787a2f112")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df831c63-421b-4dda-b52c-bf35008dac0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed200d3a-dd8e-4c8b-9404-8a6f6bda4f34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7f182db-6f80-43b9-afb0-c5cf7c09a847")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0ad4e09-c736-48b0-a4f5-2aeb379e61ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "485aca57-4c34-476e-b4f6-5e77b40d07d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e527b6d-fe27-4cc2-8171-854110f30f6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5a76615-4b69-4219-b6bd-2fb43926a3d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "196d0816-5bee-4f4b-b648-1842e187ad5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9d4153e8-9514-4e5c-ae08-135546df4b76")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cbee7568-d9dc-4872-bba7-1edee193e319")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "695b712c-19ad-471c-94ec-92b1f214df7d")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0229b854-da0a-44a2-9ea1-4361596fa153")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "03258416-2b30-4473-9878-823f448bbf49")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e6b0d63-7675-4d54-82aa-fab7e0478f1c")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f77936fe-1382-4342-b30e-445802451832")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1afa9da8-357f-426d-b010-d617cd7115c9")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c3463f47-b037-40d1-ad36-3c9b5df0015d")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "738102a1-4b3a-4d1a-9941-a33dae4971ce")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "86268940-ddc2-46e5-96c5-0bf5fe9f8016")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a6a4bba8-e5da-40f2-babf-501c68b92d66")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6fc2a18d-a795-4b56-be8d-2ee70bccce67")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc3f39b6-e36d-4dde-a648-11cd692127b4")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6472ae19-2458-4f5d-a0bc-9b34148c3774")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c9057bbb-12ac-442f-9b0a-a1457a2cd9bf")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f46c0b8-a6bb-44eb-9e74-9c2ca0fcc8c7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "69b32fac-8053-48ed-906f-7ab08fe67ba4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ac6c5e3d-d6d4-4280-8237-d7f53ea435cb")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "726fc64f-4cae-4913-8782-978c3f43c9ce")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c563051c-6074-4011-a617-33f237625dda")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 17 "/KEY_Q")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "acf90aa7-8285-435b-81d9-205755ff8fd3")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "8f328097-072b-4dec-b620-e6225f5d996e")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "2a8c2975-315e-4177-9b4f-804ea5ff3084")
+		(at 97.26 108.72)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A18"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "c14b8896-287b-4f18-b72d-c4a5e1e3f3d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "70e7f6a6-105e-482f-9b3a-65261c4a700f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d5270ad-0396-4e29-ab68-cf4573e352c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5896458e-6f90-4300-b13a-ebb37ade2b69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f92a7b4-b02e-4011-8e6a-ed5c5e0376c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca7bb672-2336-4e90-be9e-381a75349ce0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701dd63a-c0da-4537-a438-99489ee7372f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc27d504-aef1-45f2-bff8-3d4c76c7bde5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "155f92c5-f546-4175-81e8-2925a945326d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7427181c-055c-4b6f-90a2-19de5bfc17a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/239ceb7f-a7e4-4131-8729-282c7741442d")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18e21152-4f82-4bd8-b7bd-5baabcbb5941")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b26222a6-e946-4c6b-a7a5-53207636d69a")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04ce8077-57d6-49b2-8537-5d0e48f1dc5a")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "425e192e-16b5-45e2-bc11-66fd71706888")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20550375-64cd-4517-afb5-72f7eda97bec")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b72ac6bc-763d-421b-a63a-e3fa89dbcdee")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6fe31c9c-32b6-473b-a58d-c4ebb756eb68")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a0a9f662-77fb-4eb1-8bd3-74366b195300")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b0bd3c15-6264-4ae7-95f4-a6761168ab2b")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "37d9e693-db03-42bd-9eac-e6db40a5ec12")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "034a6a21-d51f-4750-b296-7c672cf522b9")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0d31ca0-9735-4dc6-a83d-cd1bfc54c765")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3008f626-c176-4c96-8e8c-dc8aadbc380b")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "863ab134-10cd-4bb5-9799-f044a4dc7462")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7edc8c6c-fa99-4831-9e2f-d2de3b6cfb2f")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c825ab15-62ef-4e46-bfec-6b00074b9140")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "e52a6958-0fdf-47fa-a6b2-c696c7fe80e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "44b078c4-1ad5-4057-832d-f324576b0a6f")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f29f879b-c4f7-4d7c-9a60-109f2fbc8a29")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b12fa1b5-ea39-426c-96fa-761ed99ee3df")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "/KEY_S")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3bfc3933-d997-4beb-8981-da236244a633")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "0828714a-5d64-4382-9e7f-c560483d64b5")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "2dd965a2-0476-414f-b993-60b7b97e8db4")
+		(at 78.56 90.02)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A10"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "876c2224-080f-4c0e-9c43-c3078edb179d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dbae0541-617b-4506-8d9d-fa02f9f1458c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd084f6-4d66-4644-b9fe-446fd4871397")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bab26156-c007-4b48-a236-ff669688702c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb5dc714-b735-4edc-b242-2f16a5af50ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bda570d0-ad63-443b-8754-c5c4a8957876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd3f8e7a-0e89-4806-8345-d881b10ed3f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3e1d984-f45e-48f6-bb1e-7b0704395e04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8610341-c2ec-4d11-b62f-b45e8af9a8fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d02e3709-b438-4728-8f68-18338c0ff36f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8db30c50-581b-4a9b-af5f-4a244e74359d")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5a611877-62ee-4904-a8ef-d07e348a2dcc")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8e8ff01-b66d-4a4a-940c-e56a22732f47")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f4e138d0-6e98-463b-a68e-b0267f3d8d4f")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "30a485f9-5791-415f-878b-8154b8e65b78")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c44c923-6662-4a42-881f-64963baeb5b1")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a782b44d-ae3d-4e82-810d-e1aeea33f2e5")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "88883b98-892b-49b6-b060-7c3cc5ae8f68")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b478a95f-98b9-4425-a4ec-7ee321e9dc48")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "69aeb0bf-aa02-488d-b4c9-8365ef01a278")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "606a5bf1-835e-4eff-a525-db4b7bbecc2c")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9515220c-4275-4753-b5ea-2cd8f54581b1")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a70da69-9c09-4f05-92bc-e6bfd37a3c82")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5064f115-bf09-403c-8911-a0b75d303672")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a0e51a1e-75f5-46b5-9477-29ebb1c40752")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8161c7e-eebd-417c-bfca-2e6ded2fde7c")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "448da2d1-a630-41da-ace7-7b138111d636")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "fc9a365b-9d92-4c62-bf7e-87d28f850d0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a38fca0e-79fd-4553-a465-e440b39ef767")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d87b7349-02b6-4e9f-a936-c69410153b74")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c13c2cb3-e134-44e1-8db0-a699df789627")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 11 "/KEY_K")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e37eb209-736d-4fdf-859a-0c68edb79ea8")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "4fcbb196-9c3d-4268-9ae1-cf460b39f846")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "318aff77-3f5a-4f6a-a543-5d7d4e0e2305")
+		(at 97.26 164.82)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A21"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "9a3bed98-ad63-4f76-a7bb-91142e91c139")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e591eb21-11de-4d28-a8d0-a34823cfbdb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44fdf095-751c-440c-9ae3-c1a9c2776f80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f97ad01f-0733-4299-928e-44bb0c9fa194")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824afcbf-3a48-45d1-9bac-533bea666459")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40a2acf5-56c9-4999-9a29-05b0e38dc8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20e562f8-4604-49bc-bd7c-bd9caadb97ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "310b6b42-de85-451d-b7f7-3f6b20320474")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "069c5f10-6b13-4af8-a575-0f41d8bc7f44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3346dd85-2be6-4cd9-84b8-6486d6acbcc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0dc930ee-842f-4adc-8828-9928120feb35")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50f5703b-5f4e-4538-bae6-fd79028e12ea")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7371d850-5af5-43cb-ae6c-b8c7d46619fa")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50275604-e24f-4e87-ae60-5280f891b403")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eec18f88-0d28-4ac1-b58e-ba2a9596bb22")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad3842a9-063e-4041-9434-e0b37599ac22")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7843b21f-67c0-40ef-b0b8-715176473a16")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8ea18ee4-4005-4f99-b73a-8bb71a45bbe3")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "956f71df-ca60-4794-ae42-ec1a4612b1bf")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "33207be5-ede3-4c3d-821e-3960fb03e374")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3e96ae69-04fb-408f-91b9-58402668053f")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6fb48f38-390e-4ca6-a1ee-9c2441bc4ae2")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc968db2-c895-42f7-9140-d7c5f253c9ab")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e8af486-a91c-424a-8424-7e2b83f80eb3")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bdb70ffc-2026-4708-afb7-93dac68676ad")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75b62bfd-e2f9-45bc-8406-34c15cae4cbf")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5b2c22bd-108c-4548-98c0-857c16c07e3b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "d045325f-db83-46c3-9abe-c37968503a9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8b4a4783-81e6-4feb-b5fd-3243cc9cbabf")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "94602e15-178a-48b2-a9b5-423b51c8f6d6")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f659002e-ce5b-4f2c-a1e2-1e42f549d097")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 22 "/KEY_V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "faae076a-e1d4-4b67-aba4-2886040577f5")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "a6956564-b600-4bdc-82f0-3dc7a4519f10")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "350d2408-661a-4c31-81c1-7152481844d1")
+		(at 115.96 71.32)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A23"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "c1ad6f94-08b2-4f49-88d2-3f8bd841f3ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9dbdadcb-3312-4972-af9d-4acb54b8464d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3f4d35e-ebd0-4451-b8f9-2664924990fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99a1aa6d-8a7f-4841-af21-ad3ac8d821f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1627da6-6a42-4865-affe-dac4f2e9a710")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b77af41-db99-441b-9027-6fd5850b23e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fde28918-95dc-46b9-9589-efd1a44bfc19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58d8311f-485c-442e-a2d9-eb5abde99675")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fb1dc7e-3e1c-44af-8f2f-ef98b2ab02be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e317924-29b6-4404-8008-ff0ff861e823")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/0a8f373b-98ee-45c3-83c0-5495135b0699")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "015444b6-d18d-41a3-acfd-7bc057b021c0")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "365f296e-1e4e-4b20-8704-33ff51cba316")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1ecf2f17-f681-4316-9476-6aa885e25c4d")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab1c4b24-0f93-44b7-ac1b-278287e2884d")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab9d6dcc-e2e7-44ba-a28c-a66f89afc9d0")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f0118c31-e0f2-4493-a4aa-ea1d0dffa7ba")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2a4f5a4-e34d-4838-9730-cf99a76e52ce")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1e071b49-5745-4fec-8bae-67fc16bcc741")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "afba1ac7-7328-4f5d-828f-e47539eb046a")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8e89fa10-4496-42cb-b01c-c0953c2ed4f3")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bedd826d-aaee-448b-861f-b71e2dbed5c3")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48599f3a-e146-417d-b21c-454d7dfaad71")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "21c2c690-c6e1-4ae7-8f87-f81ebb70e62c")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3550af34-5330-4eec-b65b-077375e9b6be")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c8e3211f-c995-4c99-b2ff-eba02a0baf82")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "933f9281-8f98-47f8-9a3d-78d74cffc172")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "5cf1a673-8a15-4f44-887b-14f40e0cc3a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "57162197-c72a-480b-9e47-8e7d9980483f")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6e6c6261-f7cb-4208-8c63-7ec5c940ce66")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "933eb095-bf2a-4779-85e6-a2ddcc9311a3")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "/KEY_X")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b938d9d0-81ce-41e7-b44b-ea760605da88")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "e787e3fb-cd04-4c50-873f-cfaae5b04191")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "3e18bf39-3c7f-4e64-aa03-08b2cfd6a804")
+		(at 78.56 52.62)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A8"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "dd69726d-ccc2-43d6-ab90-925f04f78aa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd0e3345-3b0d-4774-88aa-ff2bf6d471ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2faf02a7-47ae-4f12-80eb-ca0ec7854b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7877eb2f-4035-41cc-9315-938c4cf4dc07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "997e0abd-658f-4860-9682-6894f5763933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c353c511-ff57-420a-9036-3af6b40a755c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58509993-eece-4510-807d-132e66a9c17e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4340d609-4d7b-4f70-a76c-b7eaedda9625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ee5309e-80f0-47da-a9cc-36ab5f586746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60b1dd10-270b-464d-8b47-88d50c050c7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/7e14b984-af84-436f-b112-2ee3bf333abc")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13230479-f4fb-4dbc-84ca-a839595e36b8")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "99efd4ed-668e-4de0-8578-54c03f5ba60e")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "32a3c4f7-ff3c-426f-8352-5289a6ea11c9")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "75466910-f8c7-42d4-8456-b97ea880c597")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "84dbe6ab-4a29-48c1-b26f-c74cc7f0bfbc")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b0df8551-b7b5-48c5-99e7-248ba854a1d8")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8cbfd18a-5b3b-4238-83e3-c75a27638473")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f0210be7-5ac7-4386-9ace-966b842b9ace")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "61e3deb6-8115-4524-bdab-ef8119ec8027")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9cce27db-a85c-4a5c-8779-5287181736ab")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "65b3f5d5-d20e-4d82-864f-2375839d552b")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f595199-2cd3-4650-9ab7-9eb740aac6fa")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "457ed678-b3ff-41ff-8001-5ce77f8911b6")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a6169d72-a368-404f-a5c5-30a45e63df3c")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1573cf76-5f64-4415-9e4c-b248d5f8386f")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ee3fce2-322e-4a5f-9d0e-5a584c45be36")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "72f57559-5491-457b-9862-b845b9d0f915")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3df37d25-3262-4da5-9363-6af320a79621")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "079ddfd2-8863-44f5-82bc-ca4adce27af5")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "bd520a25-7475-4f07-bf59-cd5478836e8a")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "/KEY_I")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4f57ef26-7d6b-4d62-b283-9e5d12fa4165")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "ecb57dbd-1a25-4c99-a863-46fd4feb1e59")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "48230d88-0dae-4a98-b22e-d30ea0120221")
+		(at 78.56 71.32)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A9"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "143e7aa4-9023-4577-baf0-c168079a8f7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6513f4a1-f770-44b0-8d0d-82c6ff90bd21")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6dc2bc0-c96c-467a-879e-550de1c516f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acacd40f-9b12-4941-881d-4da513d0f1de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94381e13-3a27-450a-a848-0cadc0389a97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0c3ffb5-5441-4166-a528-9f3631797588")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c3c49df-13ef-4cee-88cc-6e10823e2dd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb86b9fb-a81d-41d4-bc19-efd93e7bc986")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec6b94f1-f8ea-44b9-8b28-de6392416775")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7ad85b9-3588-460d-9fc5-e4927073e88b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6ae7d037-4aa3-4397-8713-cf12935fdc4e")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2bcfbf7b-2dba-4ce9-b609-54b7cd732ec5")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9426594f-c88f-4255-8491-6db7bcf196aa")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bf0cf569-a50d-4e75-b719-2f244011b010")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "16d727b3-527a-42e9-93ef-47603b1dc332")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb07814a-8467-47e5-9a07-dc7595989c02")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba05ef88-2599-44af-b4c8-570a47f224f7")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "935520e6-a56a-4e15-9fb1-97100d67acc8")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb527ad8-14a0-4f0b-aec6-08a85ae8732c")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62d1a8a8-dd62-4883-830e-627a25d0bffa")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "61e97f34-9762-435f-9c71-6cfc15a0607a")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b1bc8ed3-5d5f-4480-bab4-600ae5b90f71")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bdc02480-0cb4-4f95-b8a5-bf5afde8e815")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0c69659f-b61f-4677-81ad-a0b7fb6528da")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1406653d-6bc3-4388-b388-0188608ab0c8")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f601926b-836d-4205-836b-ff9b19023686")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c516c5b7-eadf-4573-ac16-26f542929724")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "1b7b73d5-9aa6-4131-85c7-ad5786034376")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5e943d97-bf07-49bb-8475-66e32c1a263f")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2d338bf4-177a-4ee9-9fa2-4d7ed2edd262")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "1f2e7320-544f-4308-a309-4ef52d02daad")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "/KEY_J")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "472ec8e4-a03c-4147-8ec7-a7729c664048")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "91f7f27b-2ea5-4f1d-a555-c5d6fe56da46")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "61c67fd4-d558-4071-a67d-e9ad41e5f40c")
+		(at 78.56 127.42)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A12"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "175f5bfa-687e-439f-9156-89fd949b7725")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "25ab4292-9eec-4ad3-8472-c2a3ad4ecb86")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed9c65ed-4b87-46ff-a26e-25c7fbed4c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd1d4e6a-3f51-4b8a-8303-b49677e71e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e649315a-8d33-4e76-9a72-90833fce422a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "918240b9-5057-4cc1-baf0-3307010825a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "010f6bad-7b5f-453f-b49a-50424e6d42ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eeac805-44f0-419d-9959-d037309e7dd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f88d559e-baa7-4aa3-9ced-9d1bc9b7e55f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfca5db2-0c1c-45d3-97e1-a78a2c27904b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/45168d73-0afe-4568-9dd4-6368a1ee39ad")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "231543fd-a936-47e9-8ebb-be0863933ac5")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d0070456-02e9-47c2-ac51-d0c1239c22aa")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bddb8f2-b073-4a38-9ea9-4686d6d5ade1")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "08bd07ad-695f-4080-b277-543d5d85197b")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8bf445f4-107d-45cc-99cf-d2b741d8d78e")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4e361e2-7947-4150-b26b-b096dc55c11b")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0407733a-58d1-4ac1-821a-3646ade466b6")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f65fb8e5-1327-49dc-a23d-6f473a36f671")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dfd93728-ef28-4437-a0fa-6a206304ec22")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7235cc67-067d-4960-b0a9-249f833fbae0")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "79f07299-ed0c-445a-83cc-80033769003b")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11088fc7-babe-462b-be07-5af258e56e4d")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67ee2297-6e0e-421c-9e5a-8ce05bd5662e")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8d276002-9e52-4954-8caa-3a876b9c7b41")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bc256b71-1ccd-4d37-85af-01994ee035e7")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f107c69b-d62a-4161-b70f-ced9819fe073")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "55b8fb67-c60a-4e99-948b-519a24b8807c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b6f305df-d43b-4b4e-a2b9-e45e13e4af4d")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6182cb72-b963-4710-91d3-941f72c2e6ce")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0318fda1-6de6-42c9-a435-e4f70c432c90")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 13 "/KEY_M")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "5673a1ac-04c5-40aa-8f04-a34810490a46")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "71255b43-a04f-4ad1-a064-64c841996346")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "6cbfc2c7-81a1-4ecd-be2f-9d9d78d331f0")
+		(at 97.26 90.02)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A17"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "bebc67d1-9878-4c66-8def-3106133d9094")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd5dd854-f619-466b-9f00-b23621504fc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b8f61b1-0ae7-4e22-b845-7e598b5bee4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5b3b656-4580-4d05-96b4-6e1144a90c02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "797b9074-5c7c-4124-a7a5-47d40f3fbc85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bd3f518-2a0f-451f-9e2a-e5e0fcf6a1e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c2e99bb-786d-43c1-8dd1-78bf67c38381")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc00102-d5c6-45f2-b123-fc3decbe2730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9356b91-9fe1-42d4-906d-1d8cd8df7c21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07cf2106-f9a3-4467-8998-ce66c5f3ce33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/6663745c-15fe-4b14-a09c-7a2915e9ba85")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "992b0df6-31ad-45dc-98c3-0fcff7674b6c")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "273553bc-51fe-46b9-98f8-e9888eb53ecf")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dbbc3511-e5a0-4f65-801a-6005ae2df44b")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5e892b4a-de02-46b6-968f-84284670c924")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba24a8bf-c395-4c3a-be4a-c642ea041db9")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "da391bce-b9de-4ad0-9f88-85d88f0758f3")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d195fde9-0d50-43bb-a038-09e683b7ecc2")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8c2593d0-a580-49d9-a2db-7d1e6bf699a5")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4260301-65c5-46da-9da1-29967e1e564e")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2b53d866-1dba-481c-b72e-661e200032ba")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "df13cdfa-7084-4d43-aa8c-69ba872f8fe7")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc7e15e5-0ffc-4d6a-8a82-95479e338057")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f8bbfb1-3e6b-4134-9aa7-08ffbbe2f04f")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6622c724-c630-4294-84a0-3102ce6a45b4")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e65880f6-5194-40e9-84c3-26c3a22a71e9")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "57b15faf-2027-410a-a845-de200c6b4266")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "a1f86a89-c977-4217-8fbf-ea9d8dcea2c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9c4d0a5c-6896-4595-b04d-dcc5b761823f")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "21e98981-17f6-4471-9328-fde5942518b8")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "76971a41-3df7-411a-b22b-4a87f806e4fd")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "/KEY_R")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "66aeb3f1-353b-4dac-8a39-a76763c56878")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "bca5bc59-fe49-455d-8553-2e0e0f4aeb88")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "6f9f812d-064c-4c85-a3d1-545d64e37ca8")
+		(at 115.96 90.02)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A24"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "832d5a12-0695-4e48-9f0f-4d737dabae28")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d630a561-f9b7-44a4-8a12-a72f9dfbfd7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62bae141-ea81-4c62-b56f-ed0d20212da7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc8203f9-10df-4bd7-b078-93b58194e907")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82653753-c2a2-4d53-b527-726ad73d6a13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80fb0f40-a2c7-4bc0-9fb4-70e5f232d6c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0dc5fcf-27dc-4631-97b4-fb5542dc240c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87bb907c-1aa1-4121-a190-c672baf21ff3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f147f7f7-bd09-4d74-ae10-f2e31dd51467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da1987c0-7827-430c-95e2-ec925b6306cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ab3cbdbd-f328-45df-80bd-6b2b7fad4d08")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1ac6b498-5c7f-4dd1-92c2-a36bedb186d3")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba9e063e-22dd-40b0-a188-35b8e8c904de")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5879267c-9f92-47f6-ad9c-bd3fb94427e8")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7dd4a6b4-1c90-4b3d-9446-1c658ebd171e")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4a711d8a-e532-4e19-aff7-a4e42f8af87c")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89409e6c-dd36-408f-834a-16e3829717d7")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f1904196-2c08-460f-99fe-dfd3f2507798")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6fc1c008-ca64-4d40-b6db-334e2b62551c")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "389508a8-682b-4bae-8be2-079442945b06")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f4f09cc-2c64-4b76-ac8b-944f5a04c08c")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "241fb7ec-d0c7-4cb1-bc91-2a2fec40b7fd")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "72d4954d-2139-44ec-963b-3373ac5e098a")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c865145c-3a87-4e30-8b21-95ce6fd109d2")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "73431009-519b-4583-9603-d5ae74720d41")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6e6ef324-a20f-40ff-840f-b0d38284384f")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff0b8cb7-86b6-4f78-8fe8-3a15d04bf170")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "d3a4cc38-edfc-4abf-b03a-040c25232b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5e671e0e-319a-4ea6-8f96-3c49f83eb8de")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2c61475e-0361-4172-9d38-3c4787f3ec51")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "d2ece56f-2488-4ce9-a86a-17fc09fe616b")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 25 "/KEY_Y")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9b7bfb27-0e29-4c65-b04c-200e35159727")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "0b577809-fa0f-489a-b691-43b4cb72b722")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "7023bc4e-0cce-44a5-bf96-dfa141a48876")
+		(at 59.86 90.02)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A3"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "765bb0ed-a7a0-4d91-a34b-f16b25c7aad4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "56b6b9c1-5792-47a2-ba98-a33186991311")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad72f4ee-ea39-42fe-beec-9f87d5f318e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e95cf1d4-303a-449e-a8ae-5193895b5515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3079d96a-f0af-4e56-997d-b377e0f4d256")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "808b8124-6c99-4b2d-96fc-64f31b1eee29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ff9c43-8b47-4e39-878d-110e631e1b66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf5b6693-687c-496e-b5f3-4703d9c74750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d02e1221-0db7-42fc-bced-b8f0d1fad4ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3261c8a8-283c-4f94-af9d-af6aa3dce6b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/38891610-999c-4bc0-add5-4a4a11fcc544")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6972c64c-1d03-4867-816e-f2c15a1b6ba7")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9a34582-22d0-41f1-9be9-98075c8d102c")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e000e79d-0bd4-4be1-8054-aea54f9783e0")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e470a067-0ce1-4c2a-b322-67bfcf2cc762")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9c331f3-ea66-4a53-82cf-6b8fcd43d42d")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b36aff7-ac73-4c73-8a56-45d1c348cad8")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1d77d589-5af4-4f6c-9740-8dad3fd88dbe")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "63b16589-9942-4339-92a1-78f4a5272d73")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ef89709-6537-47cc-9002-3d83062a9b4a")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f79fa3a1-ba29-4e85-a25b-f9ad997f1cfb")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "748ea21c-fda9-40fb-b0be-d67790a3ed72")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "460f3e38-da12-41d3-afa1-80f68fa2f621")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8276dfcb-5632-4271-8641-574a950db84c")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b1fe9618-def8-4f35-bd41-9ed1a2c6c34c")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9bdef9cb-b340-446e-b972-318aff77ce2f")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "903aee70-f5ea-43f3-bc27-2f55397d4749")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "d7883f31-1ca2-4d70-ba45-be60966a094c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "407213b8-7f99-497c-ae02-54f1bed4fa16")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "720382bf-149a-42d9-a2c9-84ed1d8ad9b5")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "194ec41d-9ae9-477a-99c6-2624f85993c8")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "/KEY_D")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "616b5057-e9cc-4c55-a3c1-9b349cda2e3e")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "5095eb75-a12b-4f46-bdf9-03b19ce27f28")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "9b90282f-cab1-4323-9e12-dad363ee19c6")
+		(at 78.56 164.82)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A14"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "9c5d372e-46b3-4790-ae59-90d7e83b0dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f32297b-c6c4-4935-96f1-38885b10ee8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3abd539f-e5d1-492b-a1f7-3d9e04606638")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef20b97a-0e4e-45c2-a058-e918fbaac51a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b34a93f4-63b5-44e5-946d-686c11b22f85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a2dec86-1cc4-4a06-a8c2-e46d8c77f924")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d200d84b-9983-4e38-a2cc-2773657b4341")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "239b2577-0738-41d5-856d-e03a2e378f34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6b14439-4307-4aee-a077-5befd5905dc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b7a847b-4665-4ef4-8033-22b2daf1c0a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/96487299-ebd1-4522-b4c3-43b0ddb3eba3")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ae1eed8-3b50-4cd0-944b-1be5c6081024")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d752d895-c68a-4f95-91d2-9b3eb13bf698")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f9bffd56-b94c-4d24-9418-14b4b6ef8a23")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f7b75f80-a2fb-4e7e-8563-0e748dec1a18")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4881efa9-bf43-4478-bc6a-41719356b410")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "634d81c2-450f-41ef-a942-8ab589fce680")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab992ae7-da26-4183-b137-733474e6085c")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eed3c831-f066-481b-a64d-1e15aca042e2")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "619d943b-3fb1-4879-bbae-8c55cc3b91c1")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "943fdb7d-9674-4f5a-9972-6cc42871adb8")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "291b108d-c61f-49a3-8f37-7656397f9744")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "985f8f62-74cd-4c37-9129-bd63182a2eeb")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c560f9f0-e816-40bc-80c4-b94feba0360d")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a3a15ee-3a32-4f1b-ac8e-b554829ae46d")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0225d971-36b2-462b-9ab1-95aaa6f33f36")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "55fd380f-b6a0-43a6-aab6-c9e2576bed42")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "c01f9393-3e6f-4918-869b-74e38ad3cddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "068dd03f-c7cf-422b-b3aa-c5b7ce552263")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "2cde2868-a51a-4227-a534-03b7a1be5752")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fc9ae668-bccf-4f49-8abe-48f0bfaa00e6")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "/KEY_O")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "04ced03d-250b-48ec-8317-cf5b4fbbede8")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "ff5f1754-3d3e-4b3f-bf7d-5a51fab723c5")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "af637f62-eb11-4b73-b6e4-e09e35a8ae8b")
+		(at 97.26 146.12)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A20"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "5f4e16f0-fea6-41f0-9044-c3fcae9cf4fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ac7e6971-8da1-489b-915b-d4d150521ac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ee99b24-86af-4437-95f7-9310e4d34ad3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03cf2ea0-84e0-48db-b885-5d7a0d6aafcf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ff7041-a73e-4bbb-8868-5620b5a0122c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35a83419-a958-47a7-a025-77ade21db9a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdc6d858-e888-4c99-9d6c-cc8da6e48172")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11ca3ffa-af18-47c1-be40-a5cb4e21d4d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cafca818-18a4-4303-b3e6-2e1ebf8672e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f667ce7b-66a4-40ae-8156-247ecdd2dbf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c3902f0e-6b09-420e-8894-55e56606ef9c")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ffa402f0-9099-4103-ba40-9f9e1cce72bd")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b14d04b-f04f-4cd6-92a9-b0b7f0261607")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ef34439-07ab-497a-9f24-c5fd60af3086")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3136b499-1406-4f89-a264-7ed1d29be48e")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cdc99066-9e1a-465a-b5cc-8e3262410955")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "efacadab-2421-45a0-9f6d-2f56d6782276")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b78d9a4-14bb-4d02-83df-ce59ec36b98f")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83c90025-1fcb-4d93-bbf4-2acd6e9a7574")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1b6da777-a9ac-4c88-b834-bde81b8c6cdc")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "adbf77dd-aede-4260-968f-49ea199a2ea5")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a4221519-b315-4135-9995-f6bb9b36d82a")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d5094369-7c89-4fdd-b460-05479cc22fc3")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aac8bb4c-6d9a-4aef-9b16-07e4aab95ab4")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ec58db01-05f8-4def-8b66-507f82a11936")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "714bfde1-51e9-4186-8937-2023866f0890")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2d6ac1d-1be1-4345-8ad9-bca9dc89d177")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "fd3e65c2-192e-4ff5-a53d-a56ec50715c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e25d79f5-c0c1-4e9d-b1f4-c68e388b9cc1")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f2b146a1-6a53-479f-aa13-ca9ca3e911fa")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "83f69054-c8e1-4c80-9325-3cc3c915e542")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 21 "/KEY_U")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b66faf8c-fc73-42d0-902e-e955ae2ebf26")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "992a91ec-cda3-4923-947c-1686e8f7c210")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "b03a2f9b-8451-4248-a17f-b56f663d22c7")
+		(at 59.86 146.12)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A6"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "d9028e12-df17-403a-aad7-59c63cd51727")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c66eb207-d9d0-4212-ae69-c0ae7ee35f82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b19d032c-50ba-42a5-bf7b-1f424501165e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26de2b1b-8067-4166-ab2b-100c7ce11ad6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9474857-34b8-4019-be0a-92a64504b9ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a6f4f54-1d06-4f76-b57b-c4fd7b46def2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcbd99a6-fee3-424c-a2da-93f4bbf161f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f30519d3-a43f-41a0-836e-d709765591a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3dcb296-7015-4a09-892c-0af257f6afbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09a2ab64-cafb-4b97-9bc4-b904b48a9bfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/b48e8d2b-228f-4042-952e-263e989d6b8b")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "307a4701-3b0d-40b9-a79a-35f923e7836f")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c815458f-4935-4821-b9f8-6f67b4ee1337")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f3bc7491-710b-49a2-9685-9cde31ba4a74")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "adec9dc4-78ab-4d35-bbec-d6705822ad8c")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e00b426-a71e-476d-8ad9-59049aa38cbf")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "05133c44-4faf-462e-a5ba-18bb03f0e862")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "434738b9-5095-48e4-8ee8-51f796913112")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9b3a2025-5fb2-4af8-8bd5-9ae77af45f2d")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "26b31b41-3b85-4b44-b596-65ed6d361916")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "40fe725d-ee9c-48b8-8019-4cd8dbb0ceda")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4b4ec6b4-d894-447c-b81e-74ccd7929b02")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0977c716-e82b-42d0-9677-850a0dc796e4")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8c59c4f4-b00f-4d21-b7b9-b23a3005d563")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eaafbaa9-e6a1-4ba3-b977-98ed3eb4de8f")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d405f87-ca6d-435e-9e39-7dfa011cf1fe")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "43d59bd9-b783-4a6d-8a90-d8928b8e4610")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "ca4ac934-9b52-4ace-a9ce-f418381ca565")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fb96dab7-c63f-4b0d-ae22-bc6a8fabbe58")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fc8b336e-7c27-4e36-a03c-7dfd0cacb422")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ba00b4d7-5561-444a-bb48-8c2262947006")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "/KEY_G")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1c987ddc-9450-4466-9b40-bb16b39f4214")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "d4179bef-0a9b-4f27-8c98-217ceb8edf46")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "b6917b87-888c-47d8-a500-ca4f2f9182e1")
+		(at 78.56 108.72)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A11"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "d9d0a694-49cf-4f6a-b9cc-ce685deac89e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fba2f5e2-51b3-49f0-bc1b-1f7e65e87b5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b345f6b-2c4d-4d3b-b5c2-aaacfb52b419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa474c53-f290-42d2-9f00-905ec203426e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ae6460c-67ab-4c82-a80e-d9f1b56efb6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f231154-4a58-4197-acab-4c810977deff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85b8268e-8c01-4a5a-96cd-ee9e819b7967")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872d9057-efa8-4e6e-9ac9-bae0aa6cb8a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01b7d8c9-2047-4040-975d-996e8b93bb25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc0db96-3637-4d3b-afed-a86c625ab6ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9e7d635c-448d-4400-a63f-ad3b9a8a2e4f")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "69931e7a-6ae5-44c0-832d-f54281c0b0f2")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1b471910-0f5f-4e1e-93ce-bbf0e78e4129")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0fe3655f-5eb3-443f-a06d-dcbdc7467735")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "184578f7-ba62-4239-bdbc-33b52e931352")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "644d2647-c96f-4ce3-a350-ed2740de9136")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df2670b5-4df1-4cc0-b9d7-6687f73d8727")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04ca8743-1c3c-48f2-a2e6-4ef977f52128")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c23914c5-eae0-4e3e-9fb3-ab9c60a1b5c1")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8ae948e0-2d50-4cc0-8aaa-547a58cb6198")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "820a7d16-a190-4d0d-8632-c18be77cc377")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d32ac40-b942-4a6d-a56a-39894c8d1b5a")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "20cb0c9b-7493-4fec-9812-bb8bbe4b2f89")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "baa6e7c9-5a52-4dae-9cc3-2ae46f5da858")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8785cc1e-9e64-4d82-bed5-2dfb00084ded")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "470bed90-45ee-460b-b7ee-dfef3155306b")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b98116e6-f3b5-4b89-9ec9-0484d58f2bdf")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "9796ed4e-719c-4c84-9bb1-974a2ae26efc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e466a18d-f240-4ce1-ab90-843c19242822")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "ec020c5a-3934-4e1b-9f8d-b6c8fad4e20c")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "44d82705-6b18-4525-9417-85d7b879737d")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "/KEY_L")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "bf83b281-0028-4658-bc05-ff5f2c5e3405")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "39c6341b-281f-4c2d-bc0f-5a03e28244f2")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "b7f2f395-794f-4196-afe0-98ec46fa074e")
+		(at 97.26 52.62)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A15"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "55a3be0f-161b-4cfa-8e08-23ebe54e1b37")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "714dd44b-c348-47c9-8e0b-bcfcbf966670")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "741373db-45d3-41d2-8e2c-34d4c810f608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f643c9f-45d2-491e-b870-ef9af8e806f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abac35e7-bcf8-4192-b0c2-7bd8c59baa18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed8dd5a1-17ee-49dd-a56b-480957e2fb97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7868b752-b258-4086-a16d-341ecf0ea671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94fe658d-1296-4ed7-9315-225fb2f914a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6244d936-5e65-4893-b266-b2d0590b9081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "411be788-df8c-4c2e-abf8-d8fa71d9567c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d67c302a-c684-40e7-9e4c-897d3899cf0b")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef0fba89-23b8-4b47-bbcc-092156ae3386")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "415bda9a-c856-4dc3-9bf1-c25d82511b4f")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e56d20ad-652b-4bc0-a244-c98c7bd0b2c2")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad1adab1-1a91-4454-ab6c-bc9bba55c132")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "870db747-de99-4c8f-b156-c6d3348274bd")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "416f5e63-9120-47b0-b430-b21ee714973f")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "382e9cf7-c7ce-441d-9051-3df6dba44965")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3e733113-77d4-4264-8579-e3d4a57995c7")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6e062c1f-bc85-4fd0-8917-201cbbc046c4")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "15d59eee-cdf4-4f89-9fc8-91d4abfc73a7")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b125f412-417b-4287-8dbb-0f0d3b6e5ce3")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31abb81f-40eb-4e62-b138-50a7d11dae31")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "466555e3-cd76-4e22-8fe7-48dd96246667")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "34fe9326-0798-4dbe-a819-98e5932e2693")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a09d5ab2-9eaf-4072-aef3-015a2abaac23")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "515540ec-a067-410f-89bd-a83e3598435e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "dbea8cfe-7d07-4aa3-b16a-39e750604d43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5361936f-db91-4b00-a75d-3fc9ac2d7dd3")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7a7976f9-7676-4d17-995b-0bf35a73043e")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "712dde4a-4851-48f7-88a6-d9b282a58f29")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 16 "/KEY_P")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "570fa962-246a-4696-8562-d70d1310b467")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "b4fe2a8b-3b5c-429f-ab77-df2c18ff9067")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "b949ca3d-a2e0-436c-aa7f-7a4c47f740b8")
+		(at 59.86 71.32)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A2"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "ba45e56a-5996-4cda-ac4e-a9b819036e46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a26bd62d-3cc9-4bfc-8b4d-860e003f63ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8563a779-632d-4790-bc61-d215e6699d5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2d61391-d4b9-493a-95ce-b1017e9e5539")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c5b8790-dd69-45a4-9731-aaae8772a810")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a698f433-e611-45a5-ab8d-3bac168eece1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5771c399-f1d6-450f-a3bd-78ea3e1190b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "100443b6-556a-43df-90a5-0229026d5119")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f8a3383-60a7-4461-9873-1def579d7287")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5d8289f-05a6-45ff-93ad-c6a3f924f847")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e460d38a-33b5-4230-9c79-c05d3fab9345")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "59a59190-11a7-44d8-bfe4-d5b493c5e2c0")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5641c21e-48a4-402b-b8ed-41da55f6d613")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "bd681321-69a3-4115-840b-2c4cdcdec8ea")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50e9b7a0-f205-4e70-ac48-f32be532a874")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3ed7bc2-f923-4e48-aede-c3257b28d391")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4a0696f0-e538-4ea6-aeae-48f34aee2cab")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "44f9fb88-1578-4c07-8065-bab78ffb14b4")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d652162-27cb-4490-aab6-c76a097ec10a")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d430ef3-607f-41ea-a72a-144420ae217f")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5a3b59dc-ae0d-4572-a260-efc0e7f2b8ad")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3fc2c8b4-ee1b-4b5d-b1bc-c85c134d98a4")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "54d5230c-bc48-46cf-b4e6-a88032123b17")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3ac3811a-6dba-40fc-8935-3acf3a756af7")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d634b099-5c5c-4120-acf1-bfaf9bfc016a")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cf3f6cc6-afb8-49c3-8b4c-955145d03a7a")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3308ed17-41bc-4d1b-928c-8307be3b30a5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "934a7cc3-e614-4045-907b-b632abefdcce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6a78ba96-0823-4e3e-9d78-27fe496a6d4d")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b4deddea-9022-4c3f-8c17-37f0a8b2dd16")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "fd0de65e-297f-4eb0-9b7e-6a9eedd12c30")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "/KEY_C")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b5046b64-7f86-4f7d-a1a1-16c36656929a")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "490e5413-f382-4ba3-b267-db72d566b781")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "c4f9f1fb-5d4e-4fdb-9c82-0da3e693232b")
+		(at 59.86 164.82)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A7"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "e6b1510c-5756-4ee8-acb2-4e3bab7ecd0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c3bdf535-0c8b-495a-86b5-d9c1aab55b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85f4f821-d6ee-4b8c-9c7b-5b5b92e40535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5e68888-0f44-4c5b-b177-51b3ba593f64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3010ad0-4ea2-4fac-86c3-d757758adf11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ba506a4-f697-45a0-9a28-1ac70ed65018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25e9dc17-eef9-4660-a645-8d6040d4686c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "646b66d7-4e91-4e3f-bf48-6ef2d37a35c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37b9a8d5-c86a-4dcd-b7fc-b22b9065d169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f2a1ea0-7f6f-43fe-a5b2-f4d6d9beb3d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/98a7c15f-3932-457b-81f1-e0050da6d8ac")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f8226ffa-311e-477b-8e22-c327cfc84e41")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2cce0e1d-d41b-4685-a596-8c832b11579d")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "15f24211-24be-4664-bb5d-dc4997e75347")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "06470375-bfc7-4205-a865-37f79b1514ce")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "599bd1a9-95b0-4847-9c71-b97f70b49e5e")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4c4af673-0395-4233-a272-ad498cdba6aa")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "51e90e33-fa4e-48e3-8011-17b0d2797187")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ac7d60b5-efd1-4b82-a792-55999533b747")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2c6b1865-569d-4ea2-bf74-27c351eae3c1")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f4d6fea3-5a05-443c-9fa6-08b47c055c55")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "804b85aa-bbab-42c3-a56a-a040df752501")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9fd96af5-be32-4cf0-b75c-6da358eb3c50")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "68583848-ba92-4e84-a6cb-6366c7b0eed8")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2a395507-be69-4861-9070-fa82e6ca065a")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a7ab8b8e-6dc0-447b-a185-ae216e863206")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "82ecc194-a522-48b5-9380-0ada05132ee4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "43982fda-789d-4794-a7c8-5a1eaf7cc759")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8e099011-2425-4aa3-a70c-40c205110d30")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "34ff74a2-f079-49c6-a295-f6a654b58dd8")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a6ddc976-647b-456b-811c-1d915fced8f6")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "/KEY_H")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9d7b501f-edad-4762-8463-801163987b2b")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "bceff7a3-7475-4bbe-9c74-9d0770ce42b0")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "cea6f65d-c638-4630-8d99-6099ab4ffed4")
+		(at 59.86 52.62)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A1"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "8c164d6d-a921-4c51-a479-d3e1e74b59f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dabfcbc3-9651-453b-ae85-da3ef634e77c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab65ace9-7609-43f1-945f-1cf3915ed087")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efed8c59-3109-4875-94a1-8409d775f25e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bb86af0-b851-4e7d-bc33-8f99b3c78d18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b87e1be2-df8f-4303-a42e-acd491d3a55c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9775a143-fbee-4d26-89ad-d79c430cd7cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bec4e876-abdf-4735-aaa7-803f13528d3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8069fef1-6baf-462b-b0ff-57e5dda79eef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8efaa436-b63b-44b7-b05f-0bc13f976787")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f40aca4e-2f0d-4d9e-9466-25e25f9c2070")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e9f9706a-3d21-46a0-a7b3-570b890af0ec")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee3961b9-d404-4bfe-995b-d622d179f157")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b30d3222-de90-4738-b69c-e52792d52d80")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "35486413-216d-4655-baef-f9a7f08d2e98")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "110887c5-6a30-4ab6-b845-c3d4931f6e12")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "87fd851f-e5ae-458e-b638-d8cc101bc140")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "df661c2c-1caa-47c8-add8-e21230001a06")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4645fc01-c0b0-4776-a127-3e5d6db490ad")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4440b6fb-d603-474a-917d-f88fa1e4b545")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "96fd0765-1b9f-4c51-b212-da784aa8a100")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3a3436a8-16f2-4c9e-bf5e-413fc884d175")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5fb23c28-76e2-42d0-9698-144850722456")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "788ce20e-f489-429e-b6fd-7c450239c5fc")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5b4d9822-635b-4ac0-b6d9-a60501a44aee")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16ee3fbf-6b01-427b-ac2c-714e5facb132")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dfce99c5-eb4c-4ce4-9dd4-d3f934f87651")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "0a572751-f2a9-43a3-a9e6-7ffc1a6c688f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "c42d8758-d607-49bd-9718-f9dc24e6ce07")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "010b8e2b-0e86-4dca-b86a-9d8f7d3b3a4a")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "f5a1a76b-961c-4cdd-bab2-d42332c148db")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "/KEY_B")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "03d95b3a-30d2-45e4-af41-c39cb55f8be3")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "89a04d26-1beb-4bb9-842f-b6e3c269635a")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "e929b5bf-5b4a-4634-b969-2580d32dd094")
+		(at 97.26 127.42)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A19"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "61142f11-7cbc-473d-b8a1-c8687b584cd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f53ec0f2-cbf9-4ffa-b846-5101da0a080e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3d1bb6d-5069-46d9-a02e-beca66b0906b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f468ac46-5f12-4659-a48b-433b94be8787")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33392454-6d37-4b9e-a020-4243344b30b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86140feb-38da-472e-bf52-8deb0cc62916")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f648e71-2efd-42b7-85e4-565941b42ece")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a152146d-2389-4063-9240-c19b0e55e098")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "620e4385-7ccf-4caa-86d6-3a6f66ea8f47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1008c91c-5cd7-4b42-935c-159f272f8784")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/32dbde0f-7aa1-4e1d-bb07-039186c14e0f")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dfe3cbac-eac0-42bc-9ab0-2ce61e3ac5be")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a7ec0d5-0d50-4c50-b2c3-2476fea0ee0c")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6576f882-2e39-48b4-ae5f-560c3c3f26e6")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ff9f996-71e5-4179-a942-96b10e64d262")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "be623e21-cb79-4bf7-b0c6-bf2b66c58cf7")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9195e267-4b55-4dc2-9a57-4fcecb937f1b")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ecd427e2-8aa6-4205-8310-f29bd282ac1c")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2784e82-8d0c-4751-bc38-ddc3a4d79caf")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d108efb-74b0-4de0-b830-683f24a9ecdb")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5b9ea4a4-64d8-437f-9a25-e13279b087f0")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eb767d4b-8bd0-4305-b083-af8a18df04f1")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2eea4253-17c0-44ba-b3ba-d05a51cb52a6")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d68378ea-3ac7-4e82-b7c0-1c699a4877e1")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a62dd64f-dc6d-4c08-8d62-5849df9c0125")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "57867655-f966-4c7f-8a3a-15ca4cdd2822")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f3200bbf-572f-470a-88c8-0d731b1dad76")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "d1609809-568b-479c-bb71-9d0388d6c142")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b25e9bcf-3951-417b-850f-2fd56e9bf8d7")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0069135d-6214-4ff8-929a-10b3128108f6")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "211c78e9-fcd6-43c3-894a-839f8009761d")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 20 "/KEY_T")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "db3d2994-d61d-45f2-88fc-fcea9fe67341")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "118e4b89-f4d0-4523-b4c3-6672a5cebfd4")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "COM-13834:COM13834"
+		(layer "F.Cu")
+		(uuid "f0edb7fc-c580-45b3-9c21-38ca2b7cb099")
+		(at 115.96 108.72)
+		(descr "COM-13834-1")
+		(tags "Switch")
+		(property "Reference" "S_A25"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(uuid "acdd0be3-ff16-40e0-8120-d1c0f2ee4f5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at -2.54 5.08 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d1dc2f3e-61af-4931-8e8b-e61c907280d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb4dfe93-f25d-473e-899e-eda7f0314e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deeaa1b6-e53d-46e4-8051-baf9fc3bcdef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51d68c59-6529-48ea-a3f1-4444cf43f41a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "369164c8-13f5-46c0-815b-4b1514bc22fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbe953e9-3063-4ae3-b9c2-aeee96eee1f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec6c98a2-8119-4fa6-8510-a2cd1e77bfe7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdbb6148-360a-47f2-9605-36833d8deb19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "237399a6-b9a4-487a-928e-93cc8f289897")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/264353ad-9781-44f7-9e0c-d11f7401dbf9")
+		(sheetname "Root")
+		(sheetfile "ps-ohk.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d417f38c-0725-4cc3-9f6b-9d92dcbff2ca")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "561ac402-3027-40ec-923e-0ec771023723")
+		)
+		(fp_line
+			(start 0 -3.3)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb81fca9-2db9-4794-88ef-5c1cceb4981d")
+		)
+		(fp_line
+			(start 0 -3.2)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "307385d2-a26d-455e-97b3-404aeffb62b5")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "843882ba-6d35-4492-9971-0aeffbde674c")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.2)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24061b05-1f14-40ce-8278-5094a47cc59d")
+		)
+		(fp_arc
+			(start 0 -3.3)
+			(mid 0.05 -3.25)
+			(end 0 -3.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "12600d01-0749-427f-91b9-f4855e42186e")
+		)
+		(fp_arc
+			(start 0 -3.2)
+			(mid -0.05 -3.25)
+			(end 0 -3.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cf184253-6b94-457a-a488-441ae0a4ace7")
+		)
+		(fp_line
+			(start -11.34 -3.72)
+			(end 6.26 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "988e338c-bed6-4327-97e7-86325294b12a")
+		)
+		(fp_line
+			(start -11.34 13.88)
+			(end -11.34 -3.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "17daff41-2678-43c2-88eb-35043747dcd4")
+		)
+		(fp_line
+			(start 6.26 -3.72)
+			(end 6.26 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6e35cc62-1c9c-4182-9c5b-91d90bc26c8c")
+		)
+		(fp_line
+			(start 6.26 13.88)
+			(end -11.34 13.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "975a7763-c73d-45ed-b3ea-10437d24d67c")
+		)
+		(fp_line
+			(start -10.34 -2.72)
+			(end 5.26 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a809f21c-0e0a-407a-8253-2b5dda991216")
+		)
+		(fp_line
+			(start -10.34 12.88)
+			(end -10.34 -2.72)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f98c923-79e4-4b93-af0a-b41e03fcc3d5")
+		)
+		(fp_line
+			(start 5.26 -2.72)
+			(end 5.26 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "87c4290d-847e-4ee3-b774-0ea5f0249f26")
+		)
+		(fp_line
+			(start 5.26 12.88)
+			(end -10.34 12.88)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0248b0fa-6fd4-4ccc-b677-816d4fb705a7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -2.54 5.08 0)
+			(layer "F.Fab")
+			(uuid "1187e543-7048-482a-a6d4-a192306f8e19")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -7.62 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "75a1a540-489d-4476-b84a-2cf6e4aa1cca")
+		)
+		(pad "" np_thru_hole circle
+			(at -2.54 5.08)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "*.Cu" "*.Mask")
+			(uuid "cc682691-e82d-4df5-aa95-98a0c372892b")
+		)
+		(pad "" np_thru_hole circle
+			(at 2.54 5.08)
+			(size 1.7018 1.7018)
+			(drill 1.7018)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a3f1b4e1-d41a-4600-9fe1-357e699e1b3c")
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 26 "/KEY_Z")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "28215e81-8679-47ee-b856-c928d5db3da1")
+		)
+		(pad "2" thru_hole circle
+			(at -6.35 2.54)
+			(size 2.248 2.248)
+			(drill 1.4986)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "GND")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "7189b94f-591f-42e1-9d5a-fde61287ecd3")
+		)
+		(model "COM-13834.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+)
