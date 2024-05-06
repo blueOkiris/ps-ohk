@@ -162,6 +162,1129 @@
 				)
 			)
 		)
+		(symbol "PCA9505DGGY:PCA9505DGGY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PCA9505DGGY"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP50P810X120-56N"
+				(at 29.21 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.es/datasheet/2/302/PCA9505_9506-2539769.pdf"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Interface - I/O Expanders 40-bit I2C-bus I/O port with RESET, OE and INT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 29.21 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "771-PCA9505DGGY"
+				(at 29.21 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9505DGGY?qs=pBJMDPsKWf1CmIK0nlAc%2FA%3D%3D"
+				(at 29.21 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "NXP"
+				(at 29.21 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PCA9505DGGY"
+				(at 29.21 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PCA9505DGGY_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -71.12)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "IO0_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "IO0_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "IO1_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "IO1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "IO1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "IO1_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "IO1_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "IO1_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -48.26 0)
+					(length 5.08)
+					(name "IO1_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "IO1_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -53.34 0)
+					(length 5.08)
+					(name "IO2_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -55.88 0)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -58.42 0)
+					(length 5.08)
+					(name "IO2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -60.96 0)
+					(length 5.08)
+					(name "IO2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -63.5 0)
+					(length 5.08)
+					(name "IO2_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -66.04 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -68.58 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -68.58 180)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "IO0_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -66.04 180)
+					(length 5.08)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -63.5 180)
+					(length 5.08)
+					(name "IO2_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -60.96 180)
+					(length 5.08)
+					(name "IO2_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -58.42 180)
+					(length 5.08)
+					(name "IO2_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -55.88 180)
+					(length 5.08)
+					(name "VSS_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -53.34 180)
+					(length 5.08)
+					(name "IO2_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -50.8 180)
+					(length 5.08)
+					(name "IO3_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -48.26 180)
+					(length 5.08)
+					(name "IO3_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -45.72 180)
+					(length 5.08)
+					(name "IO3_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -43.18 180)
+					(length 5.08)
+					(name "VSS_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "IO0_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -40.64 180)
+					(length 5.08)
+					(name "IO3_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -38.1 180)
+					(length 5.08)
+					(name "IO3_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -35.56 180)
+					(length 5.08)
+					(name "IO3_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -33.02 180)
+					(length 5.08)
+					(name "IO3_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -30.48 180)
+					(length 5.08)
+					(name "IO3_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -27.94 180)
+					(length 5.08)
+					(name "IO4_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -25.4 180)
+					(length 5.08)
+					(name "VDD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -22.86 180)
+					(length 5.08)
+					(name "IO4_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -20.32 180)
+					(length 5.08)
+					(name "IO4_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -17.78 180)
+					(length 5.08)
+					(name "IO4_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "IO0_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -15.24 180)
+					(length 5.08)
+					(name "IO4_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -12.7 180)
+					(length 5.08)
+					(name "VSS_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 5.08)
+					(name "IO4_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "IO4_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "IO4_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "IO0_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "IO0_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "IO0_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers hide)
@@ -744,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "9826f25a-8d29-4bbf-bda3-70232e20a0ca")
+	)
+	(wire
+		(pts
+			(xy 127 30.48) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9912c052-2546-4abe-b2c7-b3b8a386d1c5")
 	)
 	(wire
 		(pts
@@ -1359,6 +2492,17 @@
 		)
 		(uuid "d510b32e-2ec4-42f2-9f49-e6160767fbcc")
 	)
+	(label "KEY_A"
+		(at 127 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6b98bd7-854a-4e49-93f1-a167233c2fa9")
+	)
 	(label "KEY_K"
 		(at 12.7 152.4 0)
 		(fields_autoplaced yes)
@@ -1508,6 +2652,288 @@
 			(project "ps-ohk"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCA9505DGGY:PCA9505DGGY")
+		(at 139.7 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f4856b-253c-4672-8439-915d5a7cff3a")
+		(property "Reference" "IC_IOEXP1"
+			(at 156.21 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCA9505DGGY"
+			(at 156.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCA9505DGGY:SOP50P810X120-56N"
+			(at 168.91 120.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.es/datasheet/2/302/PCA9505_9506-2539769.pdf"
+			(at 168.91 220.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Interface - I/O Expanders 40-bit I2C-bus I/O port with RESET, OE and INT"
+			(at 139.7 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 168.91 420.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "771-PCA9505DGGY"
+			(at 168.91 520.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9505DGGY?qs=pBJMDPsKWf1CmIK0nlAc%2FA%3D%3D"
+			(at 168.91 620.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "NXP"
+			(at 168.91 720.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCA9505DGGY"
+			(at 168.91 820.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "87999141-7311-449c-a105-d0bcd946927e")
+		)
+		(pin "16"
+			(uuid "ad39d931-f722-4f21-8c5e-dd19fdb401fc")
+		)
+		(pin "18"
+			(uuid "10878c45-0c17-4ef6-a566-127f7cba735c")
+		)
+		(pin "28"
+			(uuid "cf10fbe7-7a43-4f5f-bef4-fc030a0c950a")
+		)
+		(pin "29"
+			(uuid "1251cc41-6fb1-4010-a6dc-3aa80afc38ba")
+		)
+		(pin "3"
+			(uuid "cf3d559b-0145-4698-bc14-f4aa9d63438c")
+		)
+		(pin "30"
+			(uuid "96e2d8fb-984c-4eb2-a97e-327cfd45d99a")
+		)
+		(pin "23"
+			(uuid "dbdd62f9-d42e-4a70-88d6-3e824507244b")
+		)
+		(pin "10"
+			(uuid "86e9346a-c390-410a-bb77-72026e20190e")
+		)
+		(pin "31"
+			(uuid "110ab4ff-3d27-4655-9182-02201a7735ec")
+		)
+		(pin "21"
+			(uuid "237ad7f0-78da-476c-9ffb-83bbcf4097ab")
+		)
+		(pin "17"
+			(uuid "a8e34205-1966-4c69-a379-f777ab36fc53")
+		)
+		(pin "2"
+			(uuid "a0963ac6-d59b-4018-ad50-45edf8e00542")
+		)
+		(pin "27"
+			(uuid "ec1c6b81-3cb1-4c0d-b6af-a9f40a310aa7")
+		)
+		(pin "32"
+			(uuid "b0527c91-746d-43f7-8097-0d92a0204934")
+		)
+		(pin "12"
+			(uuid "a4cd1609-8941-4d8a-befb-356a16ca5e31")
+		)
+		(pin "15"
+			(uuid "2f59e813-dfba-4a1b-88c0-b5ab564d4975")
+		)
+		(pin "25"
+			(uuid "3e5b7689-3b7b-4c3f-9e42-9e009335f916")
+		)
+		(pin "33"
+			(uuid "bac6f84f-110e-4ab3-b953-af62329495d2")
+		)
+		(pin "11"
+			(uuid "7355fdf1-07fe-4993-8563-db9caf01989d")
+		)
+		(pin "14"
+			(uuid "5ffb374a-0565-4134-8da6-ffe8ca2d2ad7")
+		)
+		(pin "19"
+			(uuid "6fcde77e-dd16-4b8a-8d7d-8b08f5d526d7")
+		)
+		(pin "1"
+			(uuid "97a446ca-889b-4136-8285-fc5611367322")
+		)
+		(pin "13"
+			(uuid "90c1fb18-c896-4333-b201-cc393cd98d57")
+		)
+		(pin "20"
+			(uuid "80515bbf-3db5-4aab-a1bc-53836fc3ca24")
+		)
+		(pin "22"
+			(uuid "0a402593-e469-469c-8947-abb320ff99b0")
+		)
+		(pin "24"
+			(uuid "08694a0e-3d48-4dd9-85ff-ef9532790216")
+		)
+		(pin "36"
+			(uuid "a7e184ca-344b-46e0-b4aa-7e6cd9e7733d")
+		)
+		(pin "7"
+			(uuid "8b2db844-0167-461f-8305-011ef1ee7308")
+		)
+		(pin "8"
+			(uuid "9d4c0311-e5df-4da4-82ee-84ca7df93f04")
+		)
+		(pin "44"
+			(uuid "0db4f68b-857d-458b-af5b-8197f3c229ea")
+		)
+		(pin "35"
+			(uuid "da1f6f4d-59fa-4338-9725-702f96225c32")
+		)
+		(pin "47"
+			(uuid "1394ae9e-54b6-4eb1-9fb6-d45aa90f70ce")
+		)
+		(pin "43"
+			(uuid "d421baea-1f16-407e-ab9c-3c665c5332b8")
+		)
+		(pin "54"
+			(uuid "7082a737-a3ba-4fff-b762-1a123e3c3bfd")
+		)
+		(pin "56"
+			(uuid "57147e21-a450-4e0d-9121-40eea224cd4c")
+		)
+		(pin "55"
+			(uuid "019ad925-fce9-416c-af25-acc14613de69")
+		)
+		(pin "38"
+			(uuid "362276ea-0b46-4a16-96d8-db393cb99195")
+		)
+		(pin "37"
+			(uuid "b9d4b7b1-9c63-4cf6-8635-422f019db4ab")
+		)
+		(pin "49"
+			(uuid "affc3086-c818-4602-9a87-17089842a9c5")
+		)
+		(pin "52"
+			(uuid "75415580-dbdb-4088-bdd7-aa08236706f7")
+		)
+		(pin "45"
+			(uuid "85533394-0d5d-41ad-8124-65211bf18134")
+		)
+		(pin "42"
+			(uuid "49199a51-8cbc-4e4f-83a2-f30f29125986")
+		)
+		(pin "48"
+			(uuid "22e46ed6-4361-4a8a-8290-cea6af30c35f")
+		)
+		(pin "50"
+			(uuid "ba65aae4-6f03-4957-bed9-dcd51e4f5310")
+		)
+		(pin "9"
+			(uuid "66913e9c-6593-4909-9ab1-6d808ae87388")
+		)
+		(pin "6"
+			(uuid "972cbeea-18f9-4499-ba7e-26e0d5665786")
+		)
+		(pin "4"
+			(uuid "be53df2c-484d-4e29-8cd6-24f26e738d17")
+		)
+		(pin "53"
+			(uuid "25e5e1aa-c601-4b28-8e3f-d9fe08396226")
+		)
+		(pin "51"
+			(uuid "08360683-ff26-4488-8264-419e41dec27a")
+		)
+		(pin "5"
+			(uuid "21ff67be-b435-4ca6-a892-450c3cc38653")
+		)
+		(pin "34"
+			(uuid "2e4d9161-747d-4dc6-995a-212b831dda4f")
+		)
+		(pin "41"
+			(uuid "ee0e6a0a-79d0-436c-ab77-362e505e3558")
+		)
+		(pin "46"
+			(uuid "718e2e4f-5c23-492c-a26f-12945332834b")
+		)
+		(pin "39"
+			(uuid "4bde15a9-3d10-4ac9-8b72-addcfb06cdbd")
+		)
+		(pin "40"
+			(uuid "a47ba344-361d-4065-84e4-ed1ad78a227e")
+		)
+		(instances
+			(project "ps-ohk"
+				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
+					(reference "IC_IOEXP1")
 					(unit 1)
 				)
 			)
