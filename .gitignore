@@ -19,3 +19,20 @@ output/
 *.drl
 *.lck
 
+# Build env
+.venv
+
+# ch554_sdcc output
+*.ihx
+*.lk
+*.map
+*.mem
+*.lst
+*.rel
+*.rst
+*.sym
+*.asm
+*.adb
+*.hex
+*.bin
+
