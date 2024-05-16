@@ -5,26 +5,20 @@
 #endif
 
 #include <USBHIDKeyboard.h>
+#include "pca9505.h"
+
+#define IOEXP0_ADDR     0x20
+#define SCL_PIN         30
+#define SDA_PIN         31
 
 void setup(void) {
     USBInit();
+    gpio_init(IOEXP0_ADDR, SCL_PIN, SDA_PIN);
 }
 
 void loop(void) {
-    Keyboard_write('H');
-    Keyboard_write('e');
-    Keyboard_write('l');
-    Keyboard_write('l');
-    Keyboard_write('o');
-    Keyboard_write(',');
-    Keyboard_write(' ');
-    Keyboard_write('w');
-    Keyboard_write('o');
-    Keyboard_write('r');
-    Keyboard_write('l');
-    Keyboard_write('d');
-    Keyboard_write('!');
-    Keyboard_write('\n');
-    delay(2000);
+    if (gpio_digital_read(IOEXP0_ADDR, 0)) {
+        Keyboard_write('B');
+    }
 }
 

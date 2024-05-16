@@ -19,8 +19,8 @@ BOARD_FQBN :=		CH55xDuino:mcs51:ch552
 BUILD_PATH :=		build
 LIBS :=				
 SRC :=				$(PROJNAME)/$(PROJNAME).ino \
-					$(wildcard $(PROJNAME)/*.cpp) \
-					$(wildcard $(PROJNAME)/*.hpp)
+					$(wildcard $(PROJNAME)/*.c) \
+					$(wildcard $(PROJNAME)/*.h)
 BOARD_PROPERTIES :=	--build-property build.extra_flags=-DUSER_USB_RAM=148 \
 					--build-property upload.xdata_location=148 \
 					--build-property upload.maximum_data_size=876
@@ -31,7 +31,7 @@ OBJNAME :=			$(PROJNAME).ino.hex
 ## Helper targets
 
 .PHONY: all
-all: clean $(PROJNAME).bin
+all: $(PROJNAME).bin
 
 .PHONY: clean
 clean:
