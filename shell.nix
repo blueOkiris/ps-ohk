@@ -9,6 +9,7 @@ let
     ]);
 in with pkgs; mkShell {
     buildInputs = [
+        arduino-cli
         gnumake
         libusb
         python3

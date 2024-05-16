@@ -36,3 +36,9 @@ output/
 *.hex
 *.bin
 
+# Arduino
+arduino-cli/
+libraries/
+build/
+*.hex
+

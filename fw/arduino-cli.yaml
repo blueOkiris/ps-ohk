@@ -1,0 +1,21 @@
+board_manager:
+  additional_urls:
+    - https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/package_ch55xduino_mcs51_index.json
+daemon:
+  port: "50051"
+directories:
+  data: arduino-cli/data
+  downloads: arduino-cli/staging
+  user: .
+library:
+  enable_unsafe_install: false
+logging:
+  file: ""
+  format: text
+  level: info
+metrics:
+  addr: :9090
+  enabled: true
+sketch:
+  always_export_binaries: false
+
