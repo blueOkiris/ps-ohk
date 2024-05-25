@@ -18,6 +18,7 @@ output/
 *.drl
 *.drl
 *.lck
+*.gbr
 
 # Build env
 .venv
