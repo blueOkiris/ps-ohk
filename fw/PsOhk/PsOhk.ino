@@ -4,21 +4,14 @@
 #error "This example needs to be compiled with a USER USB setting"
 #endif
 
-#include <USBHIDKeyboard.h>
-#include "pca9505.h"
-
-#define IOEXP0_ADDR     0x20
-#define SCL_PIN         30
-#define SDA_PIN         31
+#include "keyboard.h"
 
 void setup(void) {
-    USBInit();
-    gpio_init(IOEXP0_ADDR, SCL_PIN, SDA_PIN);
+    kb_init();
 }
 
 void loop(void) {
-    if (gpio_digital_read(IOEXP0_ADDR, 0)) {
-        Keyboard_write('B');
-    }
+    kb_update_send();
+    delay(10); // Allow time for computer to register the changed state
 }
 
