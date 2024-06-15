@@ -12,6 +12,6 @@ void setup(void) {
 
 void loop(void) {
     kb_update_send();
-    delay(10); // Allow time for computer to register the changed state
+    delay(1);
 }
 

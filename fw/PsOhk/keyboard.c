@@ -1,5 +1,6 @@
 // Implementation of reading keyboard state
 
+#include <Arduino.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <USBHIDKeyboard.h>
@@ -9,7 +10,7 @@
 #define IOEXP0_ADDR     0x20
 #define IOEXP1_ADDR     0x21
 #define SCL_PIN         30
-#define SDA_PIN         31
+#define SDA_PIN         32
 
 typedef enum {
     // IO Expander 0
@@ -70,7 +71,7 @@ typedef enum {
     PSOHK_KEY_N =           52,
     PSOHK_KEY_P =           53,
     PSOHK_KEY_B =           54,
-    PSOHK_KEY_6 =           55,
+    PSOHK_KEY_C =           55,
     PSOHK_KEY_S =           56,
     PSOHK_KEY_Z =           57,
     PSOHK_KEY_BACKSLASH =   58,
@@ -92,6 +93,9 @@ typedef enum {
     PSOHK_KEY_DASH =        74,
     PSOHK_KEY_EQ =          75,
     PSOHK_KEY_Q =           76,
+    PSOHK_KEY_6 =           77,
+    PSOHK_UNUSED_0,
+    PSOHK_UNUSED_1,
 
     PSOHK_NUM_KEYS
 } key_t;
@@ -115,11 +119,11 @@ static const uint8_t CHAR_MAP[PSOHK_NUM_KEYS] = {
     'g',                'l',                'r',                '4',                'j',
     'd',                't',                'f',                'v',                '/',
     '5',                'm',                'n',                'p',                'b',
-    '6',                's',                'z',                '\\',               '7',
+    'c',                's',                'z',                '\\',               '7',
     'a',                '8',                '9',                KEY_LEFT_ALT,       'y',
     'e',                'i',                '0',                KEY_LEFT_GUI,       KEY_LEFT_CTRL,
     ' ',                'o',                'u',                KEY_RETURN,         '-',
-    '=',                'q'
+    '=',                'q',                '6'
 };
 
 // Whether the key is pressed or
@@ -131,7 +135,7 @@ void kb_init(void) {
     gpio_init(IOEXP1_ADDR, SCL_PIN, SDA_PIN);
 }
 
-void kb_update_send(void) {
+void kb_update_send(void) {    // Handle rest
     for (int i = 0; i < PSOHK_NUM_KEYS; i++) {
         const uint8_t addr = i < 40 ? IOEXP0_ADDR : IOEXP1_ADDR;
         const uint8_t key = i < 40 ? i : i - 40;
