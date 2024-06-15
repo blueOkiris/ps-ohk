@@ -15,3 +15,17 @@ Designed around
 
 The PS-OHK (pronounced "psawk" [p͡sɑk̚]) aims to be the ultimate one-handed typing experience all without special modifiers (a standard key count) and a layout that is relatively easy to get used to.
 
+## Build and Upload
+
+Dependencies:
+
+- arduino-cli
+- make
+- sdcc
+- ch55xtool
+- libusb
+
+Build with `make -C fw`
+
+Hold program button down, plug in, let go of program button, and run `make -C fw upload` within 3 seconds
+
