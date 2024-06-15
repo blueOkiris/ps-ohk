@@ -126,8 +126,9 @@ static const uint8_t CHAR_MAP[PSOHK_NUM_KEYS] = {
     '=',                'q',                '6'
 };
 
-// Whether the key is pressed or
-static uint8_t __xdata KEY_STATE[PSOHK_NUM_KEYS / 8] = { 0 };
+// Whether the key is pressed or not
+static uint8_t __xdata KEY_STATE[PSOHK_NUM_KEYS / 8] = { 0 };,
+static bool __xdata DEL_KEY_STATE = false;
 
 void kb_init(void) {
     USBInit();
@@ -135,12 +136,39 @@ void kb_init(void) {
     gpio_init(IOEXP1_ADDR, SCL_PIN, SDA_PIN);
 }
 
-void kb_update_send(void) {    // Handle rest
+void kb_update_send(void) {
+    // Special case: alt + backspace = delete
+    const bool back_press = gpio_digital_read(IOEXP0_ADDR, PSOHK_KEY_BACKSPACE);
+    const bool alt_press = gpio_digital_read(IOEXP1_ADDR, PSOHK_KEY_ALT);
+    if ((back_press && alt_press) && !DEL_KEY_STATE) {
+        DEL_KEY_STATE = true;
+        Keyboard_press(KEY_DELETE);
+
+        KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
+        KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
+        Keyboard_release(KEY_BACKSPACE);
+        Keyboard_release(KEY_LEFT_ALT);
+    } else if (!(back_press && alt_press) && DEL_KEY_STATE) {
+        DEL_KEY_STATE = false;
+        Keyboard_release(KEY_DELETE);
+
+        KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
+        KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
+        Keyboard_release(KEY_BACKSPACE);
+        Keyboard_release(KEY_LEFT_ALT);
+    }
+
+    // Normal key functionality
     for (int i = 0; i < PSOHK_NUM_KEYS; i++) {
         const uint8_t addr = i < 40 ? IOEXP0_ADDR : IOEXP1_ADDR;
         const uint8_t key = i < 40 ? i : i - 40;
         const bool key_pressed = gpio_digital_read(addr, key);
         const bool key_state = (KEY_STATE[i / 8] >> (i % 8)) & 0x01;
+
+        // Alt + Backspace used for delete
+        if ((key == PSOHK_KEY_BACKSPACE || key == PSOHK_KEY_ALT) && DEL_KEY_STATE) {
+            continue;
+        }
 
         // Look for state change
         if ((key_pressed && !key_state) || (!key_pressed && key_state)) {
