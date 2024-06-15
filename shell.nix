@@ -12,9 +12,10 @@ in with pkgs; mkShell {
         arduino-cli
         gnumake
         libusb
-        python3
+        (python3.withPackages(ps: with ps; [ i3ipc pip ]))
         sdcc
         virtualenv
+        wev
     ] ++ buildLibs;
     shellHook = ''
         export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:${lib.makeLibraryPath buildLibs}"
