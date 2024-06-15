@@ -2967,10 +2967,6 @@
 		(uuid "0e63a11d-1b7e-468e-8083-90e2eb6c17cb")
 	)
 	(no_connect
-		(at 151.13 104.14)
-		(uuid "195cbd0d-0157-4608-9abd-a45e55413069")
-	)
-	(no_connect
 		(at 151.13 99.06)
 		(uuid "1afa64f2-b429-4057-8f1f-b68b9e5cad24")
 	)
@@ -3013,6 +3009,14 @@
 	(no_connect
 		(at 100.33 50.8)
 		(uuid "c9b7f5cf-2db9-4aca-a618-5ff8786ab5da")
+	)
+	(no_connect
+		(at 77.47 124.46)
+		(uuid "d2561f1f-7c7f-4e42-aba4-ef8d1cc9317b")
+	)
+	(no_connect
+		(at 151.13 96.52)
+		(uuid "ead58eb8-78aa-4773-b8e4-50ad5d909a4a")
 	)
 	(wire
 		(pts
@@ -3113,16 +3117,6 @@
 			(type default)
 		)
 		(uuid "0f455737-a1cc-4520-a09b-505c4e3909d2")
-	)
-	(wire
-		(pts
-			(xy 163.83 73.66) (xy 163.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fcde669-621b-4009-862d-18be167ec560")
 	)
 	(wire
 		(pts
@@ -3876,16 +3870,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 163.83 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d52cee-7f0a-4256-80c4-d1f91ce6ad29")
-	)
-	(wire
-		(pts
 			(xy 177.8 109.22) (xy 190.5 109.22)
 		)
 		(stroke
@@ -3973,16 +3957,6 @@
 			(type default)
 		)
 		(uuid "5cd579fa-dd9d-427d-8b65-6c929c96234b")
-	)
-	(wire
-		(pts
-			(xy 88.9 101.6) (xy 88.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4a8e05-7168-40d9-be28-67d6f57cec69")
 	)
 	(wire
 		(pts
@@ -4083,6 +4057,16 @@
 			(type default)
 		)
 		(uuid "62f56014-2aea-4d8d-b2a3-c32bfaa90704")
+	)
+	(wire
+		(pts
+			(xy 77.47 113.03) (xy 77.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ff8039-ddd6-4c65-b56a-9862ce4f00d0")
 	)
 	(wire
 		(pts
@@ -4566,6 +4550,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 160.02) (xy 241.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8097b4-1ed7-456f-ab69-c060b03f9e09")
+	)
+	(wire
+		(pts
 			(xy 177.8 101.6) (xy 190.5 101.6)
 		)
 		(stroke
@@ -4886,16 +4880,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab6f65e3-5502-4a9c-80d2-1a976659c45e")
-	)
-	(wire
-		(pts
 			(xy 19.05 177.8) (xy 44.45 177.8)
 		)
 		(stroke
@@ -5066,16 +5050,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 121.92) (xy 77.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa01cf5-ea3a-4e02-ac66-389fc72436fa")
-	)
-	(wire
-		(pts
 			(xy 44.45 190.5) (xy 38.1 190.5)
 		)
 		(stroke
@@ -5096,16 +5070,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 124.46) (xy 88.9 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd2146d-483c-4fc8-a52b-7f37ad1b516a")
-	)
-	(wire
-		(pts
 			(xy 177.8 129.54) (xy 190.5 129.54)
 		)
 		(stroke
@@ -5113,16 +5077,6 @@
 			(type default)
 		)
 		(uuid "bd603f15-3d8a-43ab-86e1-6706828dd78f")
-	)
-	(wire
-		(pts
-			(xy 88.9 124.46) (xy 88.9 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bda7d064-7210-4ff1-abd3-9474127e5161")
 	)
 	(polyline
 		(pts
@@ -5173,16 +5127,6 @@
 			(type default)
 		)
 		(uuid "c2e4ca60-79bf-4030-820a-077c7e32745a")
-	)
-	(wire
-		(pts
-			(xy 151.13 96.52) (xy 163.83 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c46d5d94-6a87-44be-861b-5be9f97f0502")
 	)
 	(wire
 		(pts
@@ -5486,16 +5430,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 111.76) (xy 78.74 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b12917-2cb2-46d4-accf-1db803705260")
-	)
-	(wire
-		(pts
 			(xy 241.3 38.1) (xy 243.84 38.1)
 		)
 		(stroke
@@ -5616,6 +5550,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7e88a1-ded7-4470-b96e-3923b3e2a829")
+	)
+	(wire
+		(pts
 			(xy 105.41 124.46) (xy 118.11 124.46)
 		)
 		(stroke
@@ -5673,16 +5617,6 @@
 			(type default)
 		)
 		(uuid "f5ff38c8-f3a1-4d4d-b569-0c698a135863")
-	)
-	(wire
-		(pts
-			(xy 78.74 101.6) (xy 78.74 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9252e06-9918-44c2-8c33-ade579dc54c7")
 	)
 	(wire
 		(pts
@@ -6552,6 +6486,17 @@
 		)
 		(uuid "6f574fe7-950e-4948-bd4d-10f31b7fe855")
 	)
+	(label "KEY_REAL_6"
+		(at 156.21 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71025d02-f76f-416b-ad78-52566dee03fa")
+	)
 	(label "SCL"
 		(at 105.41 96.52 0)
 		(fields_autoplaced yes)
@@ -7398,6 +7343,17 @@
 			(justify left bottom)
 		)
 		(uuid "d3484592-ade1-4ff7-838b-dda0c5119541")
+	)
+	(label "KEY_REAL_6"
+		(at 228.6 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4eb856e-8590-48b5-93a9-a653fb183f7c")
 	)
 	(label "KEY_I"
 		(at 156.21 139.7 0)
@@ -8480,76 +8436,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 152.4 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35c598b2-b05c-4ac6-82f3-d7aadd243f77")
-		(property "Reference" "R_SET3"
-			(at 154.94 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1-10k"
-			(at 154.94 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.416 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92b8b530-f073-4f62-813d-c92f39ce8606")
-		)
-		(pin "1"
-			(uuid "ec9e3786-18cf-4ece-90c4-f8a036e18d9d")
-		)
-		(instances
-			(project "ps-ohk"
-				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
-					(reference "R_SET3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 38.1 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8689,76 +8575,6 @@
 			(project "ch552g-dev-board"
 				(path "/b142e766-4f61-468f-a830-50b62dfa0286"
 					(reference "R_PROG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 88.9 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a532dea-4873-4f31-be1b-aae7ed6d1264")
-		(property "Reference" "R_SET2"
-			(at 91.44 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1-10k"
-			(at 91.44 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 89.916 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 88.9 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "719ce9b1-99d1-4b29-97f1-287ddcb9d38d")
-		)
-		(pin "1"
-			(uuid "ad66cac9-0391-4461-a1f9-1cb26b9aed3d")
-		)
-		(instances
-			(project "ps-ohk"
-				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
-					(reference "R_SET2")
 					(unit 1)
 				)
 			)
@@ -9292,72 +9108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 88.9 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "624f5b49-6298-4662-8ea4-17eb6c1ccd37")
-		(property "Reference" "#PWR012"
-			(at 88.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "51489327-dabe-4a74-afcd-a567f3ab2837")
-		)
-		(instances
-			(project "ps-ohk"
-				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCA9505DGGY:PCA9505DGGY")
 		(at 118.11 93.98 0)
 		(unit 1)
@@ -9885,72 +9635,6 @@
 			(project "ps-ohk"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 163.83 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e0af9e9-783a-4600-ad3b-e62d175a2ee1")
-		(property "Reference" "#PWR029"
-			(at 163.83 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 163.83 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 163.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "624d06e4-b3a4-457b-bbac-ee3559c3d0ed")
-		)
-		(instances
-			(project "ps-ohk"
-				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10515,7 +10199,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 78.74 101.6 0)
+		(at 77.47 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10524,7 +10208,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba099286-9842-4e26-af07-47783f2000f4")
 		(property "Reference" "#PWR011"
-			(at 78.74 105.41 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10217,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 78.74 96.52 0)
+			(at 77.47 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10541,7 +10225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 101.6 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,7 +10234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 101.6 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,7 +10243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 78.74 101.6 0)
+			(at 77.47 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +10539,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 152.4 73.66 0)
+		(at 152.4 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10864,7 +10548,7 @@
 		(fields_autoplaced yes)
 		(uuid "c97547a9-f133-49f6-9f2c-57cfcf1540ff")
 		(property "Reference" "#PWR027"
-			(at 152.4 77.47 0)
+			(at 152.4 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10557,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 152.4 68.58 0)
+			(at 152.4 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 73.66 0)
+			(at 152.4 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10890,7 +10574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 73.66 0)
+			(at 152.4 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10899,7 +10583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 152.4 73.66 0)
+			(at 152.4 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,146 +10670,6 @@
 			(project "ch552g-dev-board"
 				(path "/b142e766-4f61-468f-a830-50b62dfa0286"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 78.74 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ceb5f11f-e0ba-4090-962c-f3c209b9b1fb")
-		(property "Reference" "R_SET1"
-			(at 81.28 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1-10k"
-			(at 81.28 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 79.756 108.204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 78.74 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "304b9c3f-ec7d-4706-98a4-65324aa0f204")
-		)
-		(pin "1"
-			(uuid "9101e05e-5325-4710-91eb-21a81b800ee2")
-		)
-		(instances
-			(project "ps-ohk"
-				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
-					(reference "R_SET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 163.83 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d73581b9-6f89-42d4-8587-4ba2c5a3b51f")
-		(property "Reference" "R_SET4"
-			(at 166.37 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1-10k"
-			(at 166.37 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 164.846 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f985cc9-f18d-40e9-8520-dbe37550d5e0")
-		)
-		(pin "1"
-			(uuid "1a12ecf6-28b3-4c82-a0c2-99f15e1a8bfa")
-		)
-		(instances
-			(project "ps-ohk"
-				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
-					(reference "R_SET4")
 					(unit 1)
 				)
 			)
@@ -12532,6 +12076,16 @@
 				(justify left)
 			)
 			(uuid "f43e8b3c-3bcd-4d8e-a99c-f1ab2e6cc741")
+		)
+		(pin "KEY_REAL_6" input
+			(at 241.3 160.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "71c17696-836d-408b-880c-975d8f2bc214")
 		)
 		(instances
 			(project "ps-ohk"

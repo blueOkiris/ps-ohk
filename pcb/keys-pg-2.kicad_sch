@@ -295,6 +295,16 @@
 			)
 		)
 	)
+	(polyline
+		(pts
+			(xy 95.885 171.45) (xy 95.885 197.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001e1c2d-39ba-4f6e-a43d-11bfb14dfdbe")
+	)
 	(wire
 		(pts
 			(xy 177.8 63.5) (xy 177.8 66.04)
@@ -534,16 +544,6 @@
 			(type default)
 		)
 		(uuid "4b16749f-794d-45b4-b1a6-494008977fe7")
-	)
-	(polyline
-		(pts
-			(xy 38.1 171.45) (xy 63.5 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b72b6e3-ae4b-4df0-a4a5-510fc02543ac")
 	)
 	(wire
 		(pts
@@ -925,6 +925,26 @@
 		)
 		(uuid "cd0c8609-82b7-4361-8e89-ada1fe976a74")
 	)
+	(wire
+		(pts
+			(xy 43.18 189.23) (xy 45.72 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddc6c22-a92f-43ca-b573-711501b6a3e0")
+	)
+	(polyline
+		(pts
+			(xy 24.13 171.45) (xy 24.13 197.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7015bd-1af8-40ee-a89e-66807888c1d2")
+	)
 	(polyline
 		(pts
 			(xy 168.91 166.37) (xy 176.53 166.37)
@@ -975,6 +995,16 @@
 		)
 		(uuid "e16166d4-3358-4a55-965a-a21115297d74")
 	)
+	(wire
+		(pts
+			(xy 66.04 189.23) (xy 68.58 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ad15e2-d497-4f80-80ee-5b86db36e7c9")
+	)
 	(polyline
 		(pts
 			(xy 63.5 171.45) (xy 63.5 134.62)
@@ -1015,6 +1045,16 @@
 		)
 		(uuid "5d79265b-fe29-4ed4-a464-db6adcce1304")
 	)
+	(text "Forgot the letter C\nSo make a new 6\nand put C where 6 was"
+		(exclude_from_sim no)
+		(at 76.454 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "680e08f3-5f29-440f-aac9-1282870ed69a")
+	)
 	(text "Thumb Rows"
 		(exclude_from_sim no)
 		(at 105.664 16.51 0)
@@ -1034,6 +1074,18 @@
 			)
 		)
 		(uuid "f69014d7-6247-4fd3-89e6-2833b44bbe9e")
+	)
+	(hierarchical_label "KEY_REAL_6"
+		(shape input)
+		(at 43.18 189.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01009bce-3c2f-437f-a49c-b78f2b4c6a08")
 	)
 	(hierarchical_label "KEY_8"
 		(shape input)
@@ -3873,6 +3925,126 @@
 	)
 	(symbol
 		(lib_id "COM-13834:COM-13834")
+		(at 45.72 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5af08c2c-8924-43fe-8ab1-ece9f21c0404")
+		(property "Reference" "S_REAL6"
+			(at 55.88 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 55.88 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 62.23 284.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 62.23 384.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 45.72 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15.2"
+			(at 62.23 584.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 62.23 684.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 62.23 784.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 62.23 884.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 62.23 984.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0dccd773-7e88-43f3-b11e-6372ce0df59e")
+		)
+		(pin "1"
+			(uuid "71ddb76a-b924-4f63-9d2c-a99d523e0373")
+		)
+		(instances
+			(project "ps-ohk"
+				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
+					(reference "S_REAL6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COM-13834:COM-13834")
 		(at 152.4 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6432,6 +6604,72 @@
 			(project "ps-ohk"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_E1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 68.58 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e97cba00-7355-46fe-9ffc-f0c7df91c8d3")
+		(property "Reference" "#PWR012"
+			(at 74.93 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 68.58 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fce66a0-789a-4925-aed1-445a6981cb4b")
+		)
+		(instances
+			(project "ps-ohk"
+				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
