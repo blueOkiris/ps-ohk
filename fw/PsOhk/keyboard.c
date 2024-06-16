@@ -127,7 +127,7 @@ static const uint8_t CHAR_MAP[PSOHK_NUM_KEYS] = {
 };
 
 // Whether the key is pressed or not
-static uint8_t __xdata KEY_STATE[PSOHK_NUM_KEYS / 8] = { 0 };,
+static uint8_t __xdata KEY_STATE[PSOHK_NUM_KEYS / 8] = { 0 };
 static bool __xdata DEL_KEY_STATE = false;
 
 void kb_init(void) {
@@ -141,21 +141,21 @@ void kb_update_send(void) {
     const bool back_press = gpio_digital_read(IOEXP0_ADDR, PSOHK_KEY_BACKSPACE);
     const bool alt_press = gpio_digital_read(IOEXP1_ADDR, PSOHK_KEY_ALT);
     if ((back_press && alt_press) && !DEL_KEY_STATE) {
+        KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
+        KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
+        Keyboard_release(KEY_BACKSPACE);
+        Keyboard_release(KEY_LEFT_ALT);
+
         DEL_KEY_STATE = true;
         Keyboard_press(KEY_DELETE);
-
+    } else if (!(back_press && alt_press) && DEL_KEY_STATE) {
         KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
         KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
         Keyboard_release(KEY_BACKSPACE);
         Keyboard_release(KEY_LEFT_ALT);
-    } else if (!(back_press && alt_press) && DEL_KEY_STATE) {
+
         DEL_KEY_STATE = false;
         Keyboard_release(KEY_DELETE);
-
-        KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
-        KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
-        Keyboard_release(KEY_BACKSPACE);
-        Keyboard_release(KEY_LEFT_ALT);
     }
 
     // Normal key functionality
