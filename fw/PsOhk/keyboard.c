@@ -34,7 +34,7 @@ typedef enum {
     PSOHK_KEY_INS =         17,
     PSOHK_KEY_HOME =        18,
     PSOHK_KEY_PGUP =        19,
-    PSOHK_KEY_BACKSPACE =   20,
+    PSOHK_KEY_DELETE =      20,
     PSOHK_KEY_END =         21,
     PSOHK_KEY_PGDOWN =      22,
     PSOHK_KEY_LBRACK =      23,
@@ -94,7 +94,7 @@ typedef enum {
     PSOHK_KEY_EQ =          75,
     PSOHK_KEY_Q =           76,
     PSOHK_KEY_6 =           77,
-    PSOHK_UNUSED_0,
+    PSOHK_KEY_BACKSPACE =   78,
     PSOHK_UNUSED_1,
 
     PSOHK_NUM_KEYS
@@ -111,7 +111,7 @@ static const uint8_t CHAR_MAP[PSOHK_NUM_KEYS] = {
     KEY_F5,             KEY_F6,             KEY_F7,             KEY_F8,             KEY_F9,
     KEY_F10,            KEY_F11,            KEY_F12,            KEY_UP_ARROW,       KEY_DOWN_ARROW,
     KEY_LEFT_ARROW,     KEY_RIGHT_ARROW,    KEY_INSERT,         KEY_HOME,           KEY_PAGE_UP,
-    KEY_BACKSPACE,      KEY_END,            KEY_PAGE_DOWN,      '[',                ';',
+    KEY_DELETE,         KEY_END,            KEY_PAGE_DOWN,      '[',                ';',
     ',',                '1',                '`',                KEY_CAPS_LOCK,      KEY_TAB,
     KEY_LEFT_SHIFT,     ']',                '\'',               '.',                '2',
     'w',                'h',                '3',                'x',                'k',
@@ -123,12 +123,11 @@ static const uint8_t CHAR_MAP[PSOHK_NUM_KEYS] = {
     'a',                '8',                '9',                KEY_LEFT_ALT,       'y',
     'e',                'i',                '0',                KEY_LEFT_GUI,       KEY_LEFT_CTRL,
     ' ',                'o',                'u',                KEY_RETURN,         '-',
-    '=',                'q',                '6'
+    '=',                'q',                '6',                KEY_BACKSPACE,      0
 };
 
 // Whether the key is pressed or not
 static uint8_t __xdata KEY_STATE[PSOHK_NUM_KEYS / 8] = { 0 };
-static bool __xdata DEL_KEY_STATE = false;
 
 void kb_init(void) {
     USBInit();
@@ -137,38 +136,11 @@ void kb_init(void) {
 }
 
 void kb_update_send(void) {
-    // Special case: alt + backspace = delete
-    const bool back_press = gpio_digital_read(IOEXP0_ADDR, PSOHK_KEY_BACKSPACE);
-    const bool alt_press = gpio_digital_read(IOEXP1_ADDR, PSOHK_KEY_ALT);
-    if ((back_press && alt_press) && !DEL_KEY_STATE) {
-        KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
-        KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
-        Keyboard_release(KEY_BACKSPACE);
-        Keyboard_release(KEY_LEFT_ALT);
-
-        DEL_KEY_STATE = true;
-        Keyboard_press(KEY_DELETE);
-    } else if (!(back_press && alt_press) && DEL_KEY_STATE) {
-        KEY_STATE[PSOHK_KEY_BACKSPACE / 8] &= (~0x01) << (PSOHK_KEY_BACKSPACE % 8);
-        KEY_STATE[PSOHK_KEY_ALT / 8] &= (~0x01) << (PSOHK_KEY_ALT % 8);
-        Keyboard_release(KEY_BACKSPACE);
-        Keyboard_release(KEY_LEFT_ALT);
-
-        DEL_KEY_STATE = false;
-        Keyboard_release(KEY_DELETE);
-    }
-
-    // Normal key functionality
     for (int i = 0; i < PSOHK_NUM_KEYS; i++) {
         const uint8_t addr = i < 40 ? IOEXP0_ADDR : IOEXP1_ADDR;
         const uint8_t key = i < 40 ? i : i - 40;
         const bool key_pressed = gpio_digital_read(addr, key);
         const bool key_state = (KEY_STATE[i / 8] >> (i % 8)) & 0x01;
-
-        // Alt + Backspace used for delete
-        if ((key == PSOHK_KEY_BACKSPACE || key == PSOHK_KEY_ALT) && DEL_KEY_STATE) {
-            continue;
-        }
 
         // Look for state change
         if ((key_pressed && !key_state) || (!key_pressed && key_state)) {
