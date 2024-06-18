@@ -587,6 +587,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 38.1) (xy 213.36 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1d149b-7fc7-4c99-b596-606b2088b77f")
+	)
+	(wire
+		(pts
 			(xy 177.8 124.46) (xy 177.8 127)
 		)
 		(stroke
@@ -834,6 +844,16 @@
 			(type default)
 		)
 		(uuid "a1706631-fb5d-4fe0-8088-8b840d0dcfa1")
+	)
+	(wire
+		(pts
+			(xy 187.96 38.1) (xy 190.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a656476d-62c6-4576-a960-eb9ee27ea389")
 	)
 	(wire
 		(pts
@@ -1350,6 +1370,18 @@
 			(justify left)
 		)
 		(uuid "d12f7591-20af-4ee3-bebf-3596fffbc2d9")
+	)
+	(hierarchical_label "KEY_BACKSPACE"
+		(shape input)
+		(at 187.96 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d182608b-2b08-41a2-86b9-1f63f782c562")
 	)
 	(hierarchical_label "KEY_5"
 		(shape input)
@@ -3420,6 +3452,72 @@
 			(project "ps-ohk"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 213.36 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4469c9d5-ad20-43a4-9e77-47ab6ecd7720")
+		(property "Reference" "#PWR029"
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 213.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c694bf-6acf-46a8-9348-579923447a86")
+		)
+		(instances
+			(project "ps-ohk"
+				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6350,6 +6448,126 @@
 			(project "ps-ohk"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "COM-13834:COM-13834")
+		(at 190.5 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db7352a3-456e-4940-a73e-e6813490f30f")
+		(property "Reference" "S_BACKSPACE1"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 200.66 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "COM-13834:COM13834"
+			(at 207.01 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/Components/Switches/MX%20Series.pdf"
+			(at 207.01 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pushbutton Switch SPST-NO Keyswitch Through Hole, Standard force, click tactile, PCB mount- MX1A-E1NW"
+			(at 190.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "15.2"
+			(at 207.01 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "474-COM-13834"
+			(at 207.01 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-13834?qs=WyAARYrbSnYlamGcWwdgnQ%3D%3D"
+			(at 207.01 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SparkFun"
+			(at 207.01 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "COM-13834"
+			(at 207.01 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4eca769e-b5b9-4d3c-a755-b7a03773c940")
+		)
+		(pin "1"
+			(uuid "597c6128-2227-4035-8861-4b1733271ff9")
+		)
+		(instances
+			(project "ps-ohk"
+				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
+					(reference "S_BACKSPACE1")
 					(unit 1)
 				)
 			)

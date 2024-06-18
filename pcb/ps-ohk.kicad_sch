@@ -2971,10 +2971,6 @@
 		(uuid "1afa64f2-b429-4057-8f1f-b68b9e5cad24")
 	)
 	(no_connect
-		(at 151.13 101.6)
-		(uuid "1b1f39ff-c8e1-497a-80b2-72112e265dd2")
-	)
-	(no_connect
 		(at 31.75 55.88)
 		(uuid "24349343-cb81-409c-bfc6-4eec677ab863")
 	)
@@ -4530,6 +4526,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 91.44) (xy 267.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8992ff76-162c-4797-b571-99190aabd121")
+	)
+	(wire
+		(pts
 			(xy 177.8 142.24) (xy 190.5 142.24)
 		)
 		(stroke
@@ -5240,6 +5246,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee9c331-e5cc-415d-9586-2d3d4ed74500")
+	)
+	(wire
+		(pts
 			(xy 156.21 114.3) (xy 151.13 114.3)
 		)
 		(stroke
@@ -5869,6 +5885,17 @@
 			(justify left bottom)
 		)
 		(uuid "1171d706-65f7-46b4-b5dd-8a0eb64cab68")
+	)
+	(label "KEY_BACKSPACE"
+		(at 267.97 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1182cc59-9769-409f-adea-32e7922c3728")
 	)
 	(label "KEY_T"
 		(at 217.17 129.54 0)
@@ -6870,6 +6897,17 @@
 			(justify left bottom)
 		)
 		(uuid "9d50f7f4-6ab6-4a1a-9ff0-fe760d350b36")
+	)
+	(label "KEY_BACKSPACE"
+		(at 156.21 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d711a70-4ee9-4ce1-bf9f-2b3d673268a7")
 	)
 	(label "KEY_X"
 		(at 217.17 109.22 0)
@@ -12086,6 +12124,16 @@
 				(justify left)
 			)
 			(uuid "71c17696-836d-408b-880c-975d8f2bc214")
+		)
+		(pin "KEY_BACKSPACE" input
+			(at 266.7 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f7b3f713-7b10-4aa1-9db2-5aba10deb099")
 		)
 		(instances
 			(project "ps-ohk"
