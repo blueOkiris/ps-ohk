@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9505DGGY
+D Interface - I/O Expanders 40-bit I2C-bus I/O port with RESET, OE and INT
+K
+F https://www.mouser.es/datasheet/2/302/PCA9505_9506-2539769.pdf
+$ENDCMP
+#
+#End Doc Library

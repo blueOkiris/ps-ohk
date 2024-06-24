@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "COM-13834")(type "KiCad")(uri "${KIPRJMOD}/COM-13834/COM-13834.kicad_sym")(options "")(descr ""))
-  (lib (name "PCA9505DGGY")(type "KiCad")(uri "${KIPRJMOD}/PCA9505DGGY/PCA9505DGGY.kicad_sym")(options "")(descr ""))
-  (lib (name "ch552g")(type "KiCad")(uri "${KIPRJMOD}/ch552g/ch552g.kicad_sym")(options "")(descr ""))
-)
