@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "PS-OHK")
-		(date "2024-06-18")
-		(rev "2")
+		(date "2024-06-25")
+		(rev "3")
 		(company "Polymath-Studio")
 	)
 	(layers
@@ -30460,7 +30460,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "r2"
+	(gr_text "r3"
 		(at 155.4734 58.166 0)
 		(layer "B.SilkS")
 		(uuid "fe5a6259-ed0c-45bf-82fc-81c8f5b66ebd")

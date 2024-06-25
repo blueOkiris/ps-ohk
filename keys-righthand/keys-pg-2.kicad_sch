@@ -1513,7 +1513,7 @@
 			(uuid "3bb54974-8adb-47ea-9fec-3c2dc84eb36f")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR088")
 					(unit 1)
@@ -1635,7 +1635,7 @@
 			(uuid "7fb0cae2-4fa2-4cb5-8fc3-93fa2b6a0488")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_6")
 					(unit 1)
@@ -1757,7 +1757,7 @@
 			(uuid "d84cf45d-4928-442e-93c7-ebde5feb79c7")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_S1")
 					(unit 1)
@@ -1823,7 +1823,7 @@
 			(uuid "d43058f0-3efe-41e3-a78f-9cad3684f571")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR099")
 					(unit 1)
@@ -1945,7 +1945,7 @@
 			(uuid "c6ed6eff-d944-4752-91ca-9ac7b4879c33")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_O1")
 					(unit 1)
@@ -2067,7 +2067,7 @@
 			(uuid "5fa079bc-bdfd-4b48-b9cb-ad76011283ac")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_I1")
 					(unit 1)
@@ -2189,7 +2189,7 @@
 			(uuid "ad21044e-6698-422c-9dca-f3a1ca42a387")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_B1")
 					(unit 1)
@@ -2255,7 +2255,7 @@
 			(uuid "b5caddef-b781-47c8-a314-509f8726a3a9")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0103")
 					(unit 1)
@@ -2321,7 +2321,7 @@
 			(uuid "8025c1e7-e725-4f8d-8ef8-9732689d8fe5")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR093")
 					(unit 1)
@@ -2443,7 +2443,7 @@
 			(uuid "0b4960de-f042-4ee1-8e05-932fb18cb5e3")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_N1")
 					(unit 1)
@@ -2565,7 +2565,7 @@
 			(uuid "a12c926a-1e54-4e69-abc0-c93a47b05b19")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_A1")
 					(unit 1)
@@ -2631,7 +2631,7 @@
 			(uuid "0610e8ff-c47e-45ba-9d3b-a03eb400221f")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR086")
 					(unit 1)
@@ -2697,7 +2697,7 @@
 			(uuid "e727eb37-45af-4291-ab40-66c8705e3667")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0105")
 					(unit 1)
@@ -2819,7 +2819,7 @@
 			(uuid "31447c97-f977-46c0-a813-2571b296e85f")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_CTRL1")
 					(unit 1)
@@ -2885,7 +2885,7 @@
 			(uuid "59fd4d5d-c2ef-46e5-9417-c86338c9003a")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0106")
 					(unit 1)
@@ -2951,7 +2951,7 @@
 			(uuid "32da851f-477d-4431-9e22-a78e71a02366")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0101")
 					(unit 1)
@@ -3073,7 +3073,7 @@
 			(uuid "3442bec0-06d6-4ff2-ae57-b271aa4c0eb7")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_Y1")
 					(unit 1)
@@ -3139,7 +3139,7 @@
 			(uuid "9f3985d0-a405-478d-aa06-d000a55ff939")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR090")
 					(unit 1)
@@ -3205,7 +3205,7 @@
 			(uuid "37a507b3-cb09-4833-80b5-3c13c72a81c8")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0108")
 					(unit 1)
@@ -3327,7 +3327,7 @@
 			(uuid "d17f8d9d-4791-4391-a9ff-a64a43670831")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_SLASH1")
 					(unit 1)
@@ -3449,7 +3449,7 @@
 			(uuid "fca39cb8-744e-4992-9198-222fb21f8224")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_M1")
 					(unit 1)
@@ -3515,7 +3515,7 @@
 			(uuid "d2c694bf-6acf-46a8-9348-579923447a86")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR029")
 					(unit 1)
@@ -3637,7 +3637,7 @@
 			(uuid "4f90e70f-6661-48f2-97f7-1ced92252647")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_Z1")
 					(unit 1)
@@ -3759,7 +3759,7 @@
 			(uuid "baa196a7-dff4-4f83-b4ab-882306961d22")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_BSLASH1")
 					(unit 1)
@@ -3825,7 +3825,7 @@
 			(uuid "b3495729-d25c-47ca-99c7-54b05100a0f2")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR094")
 					(unit 1)
@@ -3947,7 +3947,7 @@
 			(uuid "30789d73-002c-470b-b51a-bd984960ae8c")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_7")
 					(unit 1)
@@ -4013,7 +4013,7 @@
 			(uuid "88bec0f5-786f-41ac-b846-ffeadd376804")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0109")
 					(unit 1)
@@ -4133,7 +4133,7 @@
 			(uuid "71ddb76a-b924-4f63-9d2c-a99d523e0373")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_REAL6")
 					(unit 1)
@@ -4255,7 +4255,7 @@
 			(uuid "625e7156-b351-4e39-b4c7-6c54e5fadb68")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_Q1")
 					(unit 1)
@@ -4377,7 +4377,7 @@
 			(uuid "ef0a6ad8-76c8-4cae-a2e6-a27c8e39a05f")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_EQ1")
 					(unit 1)
@@ -4499,7 +4499,7 @@
 			(uuid "108ef329-5706-44fe-8816-6aa02daf1110")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_8")
 					(unit 1)
@@ -4565,7 +4565,7 @@
 			(uuid "23703de6-0c29-406f-b50b-67558ffaf608")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR098")
 					(unit 1)
@@ -4687,7 +4687,7 @@
 			(uuid "ccb9afe3-f1c6-4282-af1e-a9e4ab88ca98")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_5")
 					(unit 1)
@@ -4809,7 +4809,7 @@
 			(uuid "fdafad4e-611a-47b6-8e82-0462e3a98477")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_9")
 					(unit 1)
@@ -4875,7 +4875,7 @@
 			(uuid "13344d62-68af-487d-a8a2-aa0a94a3a401")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0111")
 					(unit 1)
@@ -4941,7 +4941,7 @@
 			(uuid "31ec5910-0d94-4966-a85d-4cd61f8c92ab")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR083")
 					(unit 1)
@@ -5063,7 +5063,7 @@
 			(uuid "dcbc8bcd-9cbf-4e8c-b47e-6cb9a5e98d5e")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_SP1")
 					(unit 1)
@@ -5129,7 +5129,7 @@
 			(uuid "68ad8c07-ce21-4058-a68e-91c22b8f922d")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR089")
 					(unit 1)
@@ -5195,7 +5195,7 @@
 			(uuid "0b2d35db-ef3a-42be-941a-72c3c5858d79")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR091")
 					(unit 1)
@@ -5317,7 +5317,7 @@
 			(uuid "a5c5f90b-dbd1-48a5-96ec-b52b87302b0a")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_U1")
 					(unit 1)
@@ -5439,7 +5439,7 @@
 			(uuid "288f5d0d-22cd-4b24-a5e1-9028ad4bb2bc")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_WIN1")
 					(unit 1)
@@ -5505,7 +5505,7 @@
 			(uuid "d7e8d9f1-5fcd-4710-af98-5cc73af48762")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR092")
 					(unit 1)
@@ -5571,7 +5571,7 @@
 			(uuid "52246c85-6928-48e3-b3bb-fca55e8dd1d7")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR096")
 					(unit 1)
@@ -5693,7 +5693,7 @@
 			(uuid "ecc7a0d9-6157-4e4d-a87e-acbb4d7b7789")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_ALT1")
 					(unit 1)
@@ -5815,7 +5815,7 @@
 			(uuid "8f3bb673-1f82-40f4-a457-2a815782f011")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_DASH1")
 					(unit 1)
@@ -5937,7 +5937,7 @@
 			(uuid "aa56e774-6cce-4a50-85b0-e33292e23501")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_P1")
 					(unit 1)
@@ -6003,7 +6003,7 @@
 			(uuid "e7de0e66-f50f-403c-8808-f670706cf018")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0100")
 					(unit 1)
@@ -6125,7 +6125,7 @@
 			(uuid "e869c94b-19d4-49d1-88d8-69e754759b17")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_RET1")
 					(unit 1)
@@ -6247,7 +6247,7 @@
 			(uuid "5cfa9de2-f5bd-4f7f-8b91-3fe11093cc6e")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_10")
 					(unit 1)
@@ -6313,7 +6313,7 @@
 			(uuid "0b6be159-c3bd-4f00-81c0-14d924fe1667")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR095")
 					(unit 1)
@@ -6379,7 +6379,7 @@
 			(uuid "917b1651-f1f8-44d1-ac44-d8a497f0b81c")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0102")
 					(unit 1)
@@ -6445,7 +6445,7 @@
 			(uuid "9836752a-103e-4c79-bec7-016279549941")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR097")
 					(unit 1)
@@ -6565,7 +6565,7 @@
 			(uuid "597c6128-2227-4035-8861-4b1733271ff9")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_BACKSPACE1")
 					(unit 1)
@@ -6631,7 +6631,7 @@
 			(uuid "394b828a-b5fc-4fe1-8b98-c6ba757108d8")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR081")
 					(unit 1)
@@ -6697,7 +6697,7 @@
 			(uuid "c9142b40-dae6-4eb3-aad5-7a9117f9a39d")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0107")
 					(unit 1)
@@ -6819,7 +6819,7 @@
 			(uuid "09673217-3e20-4350-b7f8-8ef2254a947c")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "S_E1")
 					(unit 1)
@@ -6885,7 +6885,7 @@
 			(uuid "6fce66a0-789a-4925-aed1-445a6981cb4b")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR012")
 					(unit 1)
@@ -6951,7 +6951,7 @@
 			(uuid "1fd05aeb-b4f7-4453-af13-3a479cba4d94")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0110")
 					(unit 1)
@@ -7017,7 +7017,7 @@
 			(uuid "d6dce7df-6cfe-4629-97a2-bf204cc3b5b8")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR0104")
 					(unit 1)
@@ -7083,7 +7083,7 @@
 			(uuid "b5149554-b65f-4780-aa98-4de08342e3b1")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72/e06a5160-bd5e-4880-9a19-fab52aabf7b2"
 					(reference "#PWR087")
 					(unit 1)

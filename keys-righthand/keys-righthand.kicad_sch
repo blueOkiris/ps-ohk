@@ -5,9 +5,9 @@
 	(uuid "9764b4ba-7c88-49a9-89e6-e6f35382ac72")
 	(paper "A4")
 	(title_block
-		(title "PS-OHK Keys (Left-Hand)")
-		(date "2024-06-24")
-		(rev "2")
+		(title "PS-OHK Keys (Right-Hand)")
+		(date "2024-06-25")
+		(rev "3")
 		(company "Polymath-Studio")
 	)
 	(lib_symbols
@@ -4259,7 +4259,7 @@
 			(uuid "ae474402-92a0-400b-850a-c2ef5637731c")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "J4")
 					(unit 1)
@@ -4383,7 +4383,7 @@
 			(uuid "cbd82080-b538-46aa-879d-b732c17a0993")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "J1")
 					(unit 1)
@@ -4449,7 +4449,7 @@
 			(uuid "f64ea1e1-3798-4e12-898f-4b2b3c293a7d")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "#PWR0112")
 					(unit 1)
@@ -4573,7 +4573,7 @@
 			(uuid "714c1461-3926-4dde-8032-29adc89a2812")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "J2")
 					(unit 1)
@@ -4697,7 +4697,7 @@
 			(uuid "17abb9f2-f6dc-4dbf-9a04-3f653ce9bc1e")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(reference "J3")
 					(unit 1)
@@ -5225,7 +5225,7 @@
 			(uuid "9e5ae8bb-25aa-409e-afa1-4f4d17d7a013")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(page "2")
 				)
@@ -5562,7 +5562,7 @@
 			(uuid "f7b3f713-7b10-4aa1-9db2-5aba10deb099")
 		)
 		(instances
-			(project "keys-lefthand"
+			(project "keys-righthand"
 				(path "/9764b4ba-7c88-49a9-89e6-e6f35382ac72"
 					(page "3")
 				)

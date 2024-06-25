@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "PS-OHK Keys (Left-Hand)")
-		(date "2024-06-24")
-		(rev "2")
+		(date "2024-06-25")
+		(rev "3")
 		(company "Polymath-Studio")
 	)
 	(lib_symbols
