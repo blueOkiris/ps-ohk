@@ -43,3 +43,6 @@ libraries/
 build/
 *.hex
 
+# 3D Print
+*.gcode
+
