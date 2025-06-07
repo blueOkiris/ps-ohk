@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PCA9505DGGY")(type "KiCad")(uri "${KIPRJMOD}/../lib/PCA9505DGGY")(options "")(descr ""))
+)
